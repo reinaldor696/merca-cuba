@@ -15,33 +15,106 @@
 
 /* Your Style */
 
+.content {
+    color: #666666;
+}
+
 /* Header */
 header {
     width: 100%;
-    height: 30vh;
-    background-color: aquamarine;
+    height: auto;
+}
+
+.header-container1 {
+    width: 100%;
+    height: 10vh;
+    border-bottom: 1px solid black;
+}
+.header-container2 {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.input-header-container {
+    display: flex;
+    margin-left: 7px;
+    align-items: center;
+}
+
+.icon-search img {
+    width: 20px;
+}
+
+.language-container {
+    display: flex;
+    align-items: center;
+}
+
+.account-container {
+    display: flex;
+    align-items: center;
+}
+
+.shopping-bag {
+    display: flex;
+    align-items: center;
+}
+
+.header-container3 {
+    width: 100%;
+    height: 10vh;
+    background-color: #333333;
 }
 /* Header End*/
 
 /* container1 */
+.container1 {
+    width: 100%;
+    height: 30vh;
+    background-color: rebeccapurple
+}
 
 /* container1 End */
 
 /* container2 */
-
+.container2 {
+    width: 100%;
+    height: 30vh;
+    background-color: hotpink;
+}
 /* container2 End */
 
 
 /* container3 */
-
+.container3 {
+    width: 100%;
+    height: 30vh;
+    background-color: khaki;
+}
 /* container3 End */
 
 /* container4 */
-
+.container4 {
+    width: 100%;
+    height: 30vh;
+    background-color: teal
+}
 /* container4 End */
 
 /* footer */
-
+footer {
+    width: 100%;
+    height: 30vh;
+    background-color: red;
+}
 /* footer end */
 
 /* Your Style */
