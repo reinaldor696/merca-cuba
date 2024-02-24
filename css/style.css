@@ -478,6 +478,31 @@ footer {
     height: 35vh;
     background-color: #1A1A1A;
 }
+
+.apple-pay img {
+    width: 45px;
+    height: 31.76px;
+}
+
+.visa img {
+    width: 45px;
+    height: 31.76px;
+}
+
+.discover {
+    width: 45px;
+    height: 31.76px;
+}
+
+.mastercard {
+    width: 45px;
+    height: 31.76px;
+}
+
+.secure-payment {
+    width: 65px;
+    height: 32px;
+}
 /* footer end */
 
 /* Your Style */
