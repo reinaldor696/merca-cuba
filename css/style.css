@@ -69,6 +69,8 @@ header {
     font-weight: 400;
     font-size: 15px;
     color: #808080;
+    border: 1px solid #E6E6E6;
+    border-radius: 6px 0px 0px 6px;
 }
 
 .button-search button {
@@ -81,6 +83,8 @@ header {
     color: #FFFFFF;
     font-size: 14px;
     font-weight: 600;
+    border: none;
+    cursor: pointer;
 }
 
 .language-container {
@@ -92,11 +96,46 @@ header {
     height: 15px;
 }
 
-.account-container {
+.language-text {
+    font-weight: 400;
+    font-size: 12px;
     display: flex;
     align-items: center;
 }
+
+.chevron-down-header {
+    display: flex;
+    align-items: center;
+}
+.chevron-down-header img{
+    Width: 7px;
+    Height: 3.5px;
+}
+
+.currency-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.currency p {
+    font-weight: 400;
+    font-size: 12px;
+}
+
 .account-container {
+    display: flex;
+    align-items: center;
+    width: 63px;
+    height: 42px;
+}
+
+.account-profile  p {
+    font-weight: 400;
+    font-size: 12px;
+    width: 7vw;
+}
+
+.account-image img {
     width: 63px;
     height: 42px;
 }
