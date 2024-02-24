@@ -42,6 +42,14 @@ header {
     display: flex;
     align-items: center;
 }
+.img-logo-header {
+    width: 56px;
+    height: 56px;
+}
+.img-marca-header {
+    width: 152px;
+    height: 20px;
+}
 
 .input-header-container {
     display: flex;
@@ -53,14 +61,44 @@ header {
     width: 20px;
 }
 
+.input-search {
+    width: 400px;
+    height: 45px;
+    Padding: 12px 18px 12px 16px;
+    gap: 8px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #808080;
+}
+
+.button-search button {
+    width: 98px;
+    height: 45px;
+    border-radius: 0px 6px 6px 0px;
+    Padding: 14px 24px 14px 24px;
+    Gap: 12px;
+    background-color: #057A10;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+}
+
 .language-container {
     display: flex;
     align-items: center;
+}
+.language-container {
+    width: 23px;
+    height: 15px;
 }
 
 .account-container {
     display: flex;
     align-items: center;
+}
+.account-container {
+    width: 63px;
+    height: 42px;
 }
 
 .shopping-bag {
