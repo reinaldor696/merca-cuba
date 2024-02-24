@@ -388,6 +388,10 @@ footer {
     justify-content: center;
 }
 
+.suscription-container1 {
+    margin: 0 35px
+}
+
 .suscription-title h1 {
     font-size: 24px;
     font-weight: 600;
@@ -400,14 +404,50 @@ footer {
     color: #999999;
 }
 
+.subscription-input {
+    width: 492px;
+    height: 52px;
+    Padding: 14px 24px 14px 24px;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color:#FFFFFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 46px;
+}
+
+.subscription-button {
+    position: absolute;
+}
+.subscription-button button {
+    width: 162px;
+    height: 52px;
+    border-radius: 43px;
+    Padding: 16px 40px 16px 40px;
+    Gap: 12px;
+    background-color: #057A10;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.suscription-container2 {
+    margin: 0 35px
+}
+
 .input-button-footer {
     display: flex;
     align-items: center;
+    position: relative;
+    justify-content: flex-end;
 }
 
 .suscription-container3 {
     display: flex;
     align-items: center;
+    margin: 0 25px;
 }
 
 .facebook-footer-container {
@@ -419,7 +459,7 @@ footer {
     width: 40px;
     border-radius: 500px;
     align-items: center;
-
+    margin: 0 7px;
 }
 
 .facebook-footer-container img {
@@ -430,6 +470,7 @@ footer {
 .instagram-footer-container {
     width: 18px;
     height: 18px;
+    margin: 0 7px;
 }
 
 .content-footer {
