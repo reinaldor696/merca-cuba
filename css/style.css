@@ -479,6 +479,30 @@ footer {
     background-color: #1A1A1A;
 }
 
+.content1-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone-or-email {
+    display: flex;
+}
+
+.content2-footer {
+    display: flex;
+}
+
+.content3-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-payment-container {
+    display: flex;
+}
+
 .apple-pay img {
     width: 45px;
     height: 31.76px;
