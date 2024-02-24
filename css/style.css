@@ -140,13 +140,36 @@ header {
     height: 42px;
 }
 
+/**/
 .shopping-bag {
     display: flex;
     align-items: center;
 }
-.shopping-bag img {
+
+.item-number {
+    display: flex;
+    justify-content: flex-end;
+}
+.item-number span {
+    position: absolute;
+    border: 1px solid #ffffff;
+    background-color: #FF0000;
+    border-radius: 16px;
+    height: 18px;
+    width: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    color: #ffffff;
+    z-index: 2;
+}
+
+.bag-icon {
     width: 34px;
     height: 34px;
+    position: relative;
+    z-index: 1;
 }
 
 .header-container3 {
