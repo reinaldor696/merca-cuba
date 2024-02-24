@@ -485,8 +485,38 @@ footer {
     justify-content: center;
 }
 
+.text-content1-footer p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #808080;
+}
+
 .phone-or-email {
     display: flex;
+    align-items: center;
+}
+
+.phone-email-border {
+    border-bottom: 1px solid #20B526;
+    padding: 6px 0;
+}
+
+.phone-number-footer {
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.or-footer {
+    font-size: 16px;
+    font-weight: 400;
+    color: #808080;
+}
+
+.email-footer {
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 500;
 }
 
 .content2-footer {
