@@ -123,14 +123,16 @@ header {
     align-items: center;
 }
 .chevron-down-header img{
-    Width: 7px;
-    Height: 3.5px;
+    Width: 15px;
 }
 
 .currency-container {
     display: flex;
     align-items: center;
     flex-direction: row;
+    border-right: 1px solid #E6E6E6;
+    width: 60px;
+    height: 20px;
 }
 .currency p {
     font-weight: 400;
@@ -140,8 +142,9 @@ header {
 .account-container {
     display: flex;
     align-items: center;
-    width: 63px;
-    height: 42px;
+    border-right: 1px solid #E6E6E6;
+    width: 220px;
+    height: 20px;
 }
 
 .account-profile  p {
@@ -204,27 +207,47 @@ header {
     background-color: #333333;
     color: #999999;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .menu-nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu-icon-nav {
+    margin: 0 35px;
 }
 
 .menu-icon {
-    width: 20px;
+    width: 24px;
+    height: 24px;
 }
 
 .product-nav {
     display: flex;
     align-items: center;
     flex-direction: row;
+    margin: 0 35px;
 }
 
 .product-vector {
     width: 20px;
+}
+
+.about-us-nav {
+    margin: 0 35px;
+}
+
+.contact-nav {
+    margin: 0 35px;
+}
+
+.loyalty-program-nav {
+    margin: 0 35px;
 }
 
 .nav-info-container {
