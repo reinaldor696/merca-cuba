@@ -67,11 +67,94 @@ header {
     display: flex;
     align-items: center;
 }
+.shopping-bag img {
+    width: 34px;
+    height: 34px;
+}
 
 .header-container3 {
     width: 100%;
     height: 10vh;
     background-color: #333333;
+    color: #999999;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu-icon {
+    width: 20px;
+}
+
+.product-nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.product-vector {
+    width: 20px;
+}
+
+.nav-info-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.nav-social-media {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.facebook-background {
+    border: 1px solid;
+    border-radius: 50%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #00B207;
+}
+.facebook-icon {
+    width: 20px;
+}
+
+.instagram-background {
+    border: 1px solid;
+    border-radius: 50%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #00B207;
+}
+.instagram-icon {
+    width: 20px;
+}
+
+.phone-number {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.phone-icon {
+    width: 20px;
+}
+
+.mercacuba-tickets {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.ticket-icon {
+    width: 20px;
 }
 /* Header End*/
 
@@ -79,7 +162,6 @@ header {
 .container1 {
     width: 100%;
     height: 30vh;
-    background-color: rebeccapurple
 }
 
 /* container1 End */
