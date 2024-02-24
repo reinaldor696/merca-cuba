@@ -57,8 +57,23 @@ header {
     align-items: center;
 }
 
-.icon-search img {
+.icon-search {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.icon-search-span1 {
     width: 20px;
+    height: 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-search-span1 img {
+    width: 13.33px;
+    height: 13.33px;
 }
 
 .input-search {
@@ -170,6 +185,17 @@ header {
     height: 34px;
     position: relative;
     z-index: 1;
+}
+
+.shopping-info p {
+    font-size: 11px;
+    font-weight: 400;
+    color: #4D4D4D;
+}
+.shopping-info span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #1A1A1A;
 }
 
 .header-container3 {
