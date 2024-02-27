@@ -265,7 +265,7 @@ header {
 }
 
 .facebook-background {
-    border: 1px solid #FFFFFF;
+    border: 1px solid #00B207;
     display: flex;
     justify-content: center;
     background-color: #00B207;
@@ -281,7 +281,7 @@ header {
 }
 
 .instagram-background {
-    border: 1px solid #FFFFFF;
+    border: 1px solid #00B207;
     display: flex;
     justify-content: center;
     background-color: #00B207;
@@ -358,6 +358,46 @@ header {
     border-radius: 12px;
     background-image: linear-gradient(to right, #007C0C 30%, #057A10 60%, #06C018 100%);
     
+}
+
+.title1-content1-container1 h2 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.title2-content1-container1 {
+    border-left: 1px solid #ffffff;
+}
+.title2-content1-container1 p {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    margin-left: 20px;
+}
+
+.button-content1-container1 button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7931E;
+    border-radius: 53px;
+    width: 191px;
+    height: 51px;
+    border: none;
+}
+
+.button-content1-container1 p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+} 
+
+.button-content1-container1 img {
+    width: 15px;
+    height: 12.05px;
+    margin-left: 10px;
 }
 
 .images-content1-container {
