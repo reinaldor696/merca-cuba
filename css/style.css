@@ -437,6 +437,11 @@ header {
     width: 607px;
     height: 593px;
 }
+
+.img-content2-container1 img {
+    width: 256px;
+    height: 257px;
+}
 /* container1 End */
 
 /* container2 */
