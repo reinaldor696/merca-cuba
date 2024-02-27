@@ -342,6 +342,9 @@ header {
 
 /* container1 */
 .container1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
     width: 100%;
     height: auto;
     color: #FFFFFF;
@@ -441,6 +444,16 @@ header {
 .img-content2-container1 img {
     width: 256px;
     height: 257px;
+}
+
+.img1-content3-container1 img {
+    width: 141px;
+    height: 79px;
+}
+
+.img2-content3-container1 img {
+    width: 75px;
+    height: 306px;
 }
 /* container1 End */
 
