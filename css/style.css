@@ -398,9 +398,6 @@ header {
 }
 
 .button-content1-container1 button {
-    margin: 30px 0;
-}
-.button-content1-container1 button {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -410,6 +407,8 @@ header {
     width: 191px;
     height: 51px;
     border: none;
+    margin: 30px 0;
+    cursor: pointer;
 }
 
 .button-content1-container1 p {
@@ -506,6 +505,7 @@ header {
     align-items: center;
     flex-direction: row;
     margin: 15px 0;
+    cursor: pointer;
 }
 .button-content2-container1 p {
     font-weight: 600;
@@ -568,6 +568,7 @@ header {
     flex-direction: row;
     border: none;
     background-color: transparent;
+    cursor: pointer;
 }
 .button-content3-container1 p {
     font-size: 16px;
