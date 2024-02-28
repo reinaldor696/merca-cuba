@@ -343,6 +343,12 @@ header {
 /* container1 */
 .container1 {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container1-container1 {
+    display: flex;
     justify-content: center;
     flex-direction: row;
     width: 100%;
@@ -577,6 +583,68 @@ header {
 .img2-content3-container1 img {
     width: 75px;
     height: 288px;
+}
+
+.content3-container1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 1320px;
+    height: 128px;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 10px 40px 0 rgba(0, 38, 3, 0.08);
+    margin: 20px 0;
+}
+
+.free-shipping-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 30px;
+}
+
+.text-content3-container1 {
+    margin-left: 10px;
+}
+.text-content3-container1 h4 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2px;
+    color:#1A1A1A;
+}
+.text-content3-container1 p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #999999;
+}
+
+
+.customer-support-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 30px;
+}
+
+.shopping-bag-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 30px;
+}
+
+.garantie-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 30px;
+}
+
+.images-content3-container1 img {
+    width: 40px;
+    height: 40px;
 }
 /* container1 End */
 
