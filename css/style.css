@@ -1185,7 +1185,7 @@ header {
 .content4-container2 {
     display: flex;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .title-content4-container2 {
@@ -1223,6 +1223,10 @@ header {
     width: 15px;
     height: 12.05px;
     margin-left: 12px;
+}
+
+.our-product-content4-container2 {
+    margin-bottom: 210px;
 }
 
 /* container2 End */
