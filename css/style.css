@@ -788,6 +788,7 @@ header {
 
 .stock-flavor-container {
     padding-left: 11px;
+    padding-top: 28px;
     display: flex;
     width: 128px;
     height: 225px;
@@ -803,6 +804,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 14px;
 }
 .stock p {
     color: #000;
@@ -1036,7 +1038,7 @@ header {
 .img1-product10-container2 img {
     width: 163px;
     height: 227px;
-    margin-top: 13px;
+    margin-top: 25px;
 }
 /*img product*/
 
