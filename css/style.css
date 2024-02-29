@@ -752,6 +752,128 @@ header {
 }
 
 /**/
+.content3-container2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-image: url("../media/icons/content2-home/blackboard-569260_1280\ 1.png");
+    background-size: cover;
+    border-radius: 10px;
+    width: 1331px;
+    height: 358px;
+    margin: 128px 0 127px 0;
+}
+
+.img-bottle-content3-container2 {
+    display: flex;
+    align-items: center;
+    padding-bottom: 33px;
+}
+.img-bottle-content3-container2 img {
+    width: 791px;
+    height: 464px;
+}
+
+.oil-product-content3-container2 {
+    margin-left: 48px;
+}
+.oil-product-content3-container2 h4 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.discount-text {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+}
+.discount-text h3 {
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    color: #FF8A00;
+}
+.discount-text p {
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-left: 17px;
+}
+
+.discount-text2 {
+    margin: 16px 0 20px 0;
+}
+.discount-text2 p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    opacity: 0.7;
+    color: #FFFFFF;
+}
+
+.button-discount-content3-container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.button-content3-container3 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #00B207;
+    border-radius: 43px;
+    padding: 16px 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 185px;
+    height: 51px;
+    border: none;
+    cursor: pointer;
+} 
+.button-content3-container3 p {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+.button-content3-container3 img {
+    width: 15px;
+    height: 12.05px;
+    margin-left: 16px;
+}
+
+.img-ticket-product-container3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 23px;
+}
+.img-ticket-product-container3 p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.img-ticket-product-container3 img {
+    width: 28px;
+    height: 26px;
+    margin-left: 6px;
+}
+
 /* container2 End */
 
 
