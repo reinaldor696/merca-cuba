@@ -777,7 +777,6 @@ header {
     height: 327px;
     border: 1px solid #E6E6E6;
     flex-direction: column;
-    justify-content: flex-end;
     border: 1px solid #2C742F;
 }
 
@@ -792,13 +791,11 @@ header {
     display: flex;
     width: 128px;
     height: 225px;
-    padding-top: 165.482px;
     flex-shrink: 0;
     border-right: 1px solid #E6E6E6;
     border-bottom: 1px solid #E6E6E6;
     background: #FFFFFF;
     flex-direction: column;
-    justify-content: flex-end;
 }
 
 .stock {
@@ -819,6 +816,7 @@ header {
     display: flex;
     align-items: center;
     flex-direction: row;
+    margin-right: 8px;
 }
 
 .button-plus-stock-container {
@@ -832,7 +830,6 @@ header {
     background: #FFFFFF;
     cursor: pointer;
     justify-content: center;
-    margin-left: 19px;
 }
 .button-plus-stock-container span {
     text-align: center;
@@ -874,7 +871,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 16px 30px 20px
+    padding: 8px 16px 30px 20px
 }
 
 .title-product0-container3 {
