@@ -1257,8 +1257,35 @@ header {
 /* container3 */
 .container3 {
     width: 100%;
-    height: 30vh;
-    background-color: khaki;
+    height: auto;
+}
+
+.content-container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.daily-deal1-container3 {
+    width: 424px;
+    height: 537px;
+    border-radius: 10px;
+    background: #3884BF;
+}
+
+.daily-deal2-container3 {
+    width: 424px;
+    height: 537px;
+    border-radius: 10px;
+    background: #000;
+}
+
+.daily-deal3-container1 {
+    width: 424px;
+    height: 537px;
+    border-radius: 10px;
+    background: #FCC900;
 }
 /* container3 End */
 
