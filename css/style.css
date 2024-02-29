@@ -763,12 +763,12 @@ header {
 }
 
 .content2-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 264px;
     height: 327px;
     border: 1px solid #E6E6E6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .img1-product-container2 {
@@ -783,50 +783,54 @@ header {
 .content-info-product-container2 {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 16px 0 20px
 }
 
 .title-product-container3 {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column-reverse;
 }
 .title-product-container3 h3 {
     color: #4C4C4C;
     font-size: 14px;
+    font-style: normal;
     font-weight: 400;
-    line-height: 21px;
+    line-height: 150%;
 }
 .title-product-container3 p {
     color: #000000;
-    font-weight: 400;
     font-size: 7px;
-    line-height: 10.5px;
-    margin-left: 5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
 }
 
 .product-price-container2 p {
-    color: #1A1A1A;
     font-size: 16px;
+    font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 150%;
 }
 
 .img-ticket-product-container2 {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: -10px;
 }
 .img-ticket-product-container2 p {
     color: #000000;
     font-size: 11px;
+    font-style: normal;
     font-weight: 600;
-    line-height: 16.5px;
+    line-height: 150%;
 }
 .img-ticket-product-container2 img {
     width: 28px;
     height: 26px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .button-bag-product-container2 {
