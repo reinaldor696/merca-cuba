@@ -783,7 +783,7 @@ header {
 .stock-products-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .stock-flavor-container {
@@ -1013,7 +1013,7 @@ header {
 }
 
 /*img product*/
-.img1-product10-container2, .img1-product9-container2, .img1-product8-container2, .img1-produc7-container2, .img1-product6-container2, .img1-product5-container2 {
+.img1-product10-container2, .img1-product9-container2, .img1-product8-container2, .img1-produc7-container2, .img1-product6-container2, .img1-product5-container2, .stock-products-content4-container2 {
     display: flex;
     justify-content: center;
     width: 264px;
@@ -1054,6 +1054,24 @@ header {
     width: 163px;
     height: 227px;
     margin-top: 25px;
+}
+
+.img1-product-content4-container2 {
+    display: flex;
+    justify-content: center;
+}
+.img1-product-content4-container2 img {
+    width: 192px;
+    height: 213px;
+}
+
+.img2-product-content4-container2 {
+    display: flex;
+    justify-content: center;
+}
+.img2-product-content4-container2 img {
+    width: 162px;
+    height: 177px;
 }
 /*img product*/
 
