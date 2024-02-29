@@ -781,9 +781,88 @@ header {
     border: 1px solid #2C742F;
 }
 
+.stock-products-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.stock-flavor-container {
+    padding-left: 11px;
+    display: flex;
+    width: 128px;
+    height: 225px;
+    padding-top: 165.482px;
+    flex-shrink: 0;
+    border-right: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+    background: #FFFFFF;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.stock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.stock p {
+    color: #000;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.stock-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.button-plus-stock-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 22px;
+    height: 12px;
+    border-radius: 170px;
+    border: 1px solid #E6E6E6;
+    background: #FFFFFF;
+    cursor: pointer;
+    justify-content: center;
+    margin-left: 19px;
+}
+.button-plus-stock-container span {
+    text-align: center;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+.button-plus-stock-container img {
+    width: 6px;
+    height: 6px;
+    margin-left: 3px;
+}
+
+.button-delete-stock-container {
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    margin-left: 5px;
+}
+.button-delete-stock-container img {
+    width: 10px;
+    height: 10px;
+}
+
 .img1-product-container2 {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .img1-product-container2 img {
     width: 120px;
