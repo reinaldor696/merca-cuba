@@ -1180,6 +1180,51 @@ header {
     margin-left: 6px;
 }
 
+/*content4*/
+
+.content4-container2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.title-content4-container2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 60px;
+}
+.title-content4-container2 h2 {
+    margin-right: 456px;
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.ver-button-content4-container2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: none;
+    background: transparent;
+    margin-left: 453px;
+    cursor: pointer;
+}
+.ver-button-content4-container2 P {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+.ver-button-content4-container2 img {
+    width: 15px;
+    height: 12.05px;
+    margin-left: 12px;
+}
+
 /* container2 End */
 
 
