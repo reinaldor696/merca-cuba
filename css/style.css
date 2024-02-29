@@ -815,6 +815,26 @@ header {
     line-height: 150%;
 }
 
+.title-product1-container3 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.title-product1-container3 h3 {
+    color: #4C4C4C;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.title-product1-container3 p {
+    color: #000000;
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
 .product-price-container2 p {
     font-size: 16px;
     font-style: normal;
