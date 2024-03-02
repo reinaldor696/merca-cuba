@@ -44,6 +44,7 @@ header {
     align-items: center;
     margin-left: 217px;
     margin-right: 187px;
+    cursor: pointer;
 }
 .img-logo-header {
     width: 56px;
@@ -109,10 +110,9 @@ header {
 .language-container {
     display: flex;
     align-items: center;
-}
-.language-container {
     width: 23px;
     height: 15px;
+    cursor: pointer;
 }
 
 .language-text {
@@ -149,6 +149,7 @@ header {
     width: 60px;
     height: 15px;
     margin-left: 75px;
+    cursor: pointer;
 }
 .currency p {
     color: #666;
@@ -166,17 +167,19 @@ header {
     margin-right: 29px;
 }
 
-.account-profile  p {
+.account-profile p {
     color: #666;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 130%;
+    cursor: pointer;
 }
 
 .account-image {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 .account-image img {
     width: 63px;
@@ -189,7 +192,8 @@ header {
     align-items: center;
     border-left: 1px solid #E6E6E6;
     height: 15px;
-    padding-left: 16px
+    padding-left: 16px;
+    cursor: pointer;
 }
 
 .item-number {
