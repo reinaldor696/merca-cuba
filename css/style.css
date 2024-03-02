@@ -1438,9 +1438,36 @@ header {
 
 /* container4 */
 .container4 {
-    width: 100%;
-    height: 30vh;
-    background-color: teal
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    height: 464px;
+    background: #F7F7F7;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container4 h2 {
+    margin-top: 72px;
+    color: #1A1A1A;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.images-container4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 122px;
+}
+.images-container4 img {
+    width: 200px;
+    height: 200px;
+    margin: 0 24px;
+    cursor: pointer;
 }
 /* container4 End */
 
