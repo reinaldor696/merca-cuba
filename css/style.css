@@ -262,6 +262,7 @@ header {
     z-index: 3;
     margin-top: 8px;
     padding: 75.28px 0 0 66px;
+    display: none;
 }
 
 .buttons-menu img {
