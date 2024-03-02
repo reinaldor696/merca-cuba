@@ -1590,23 +1590,29 @@ footer {
     background-color: #F7F7F7;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .suscription-container1 {
-    margin: 0 35px
+    margin-left: 274px;
 }
 
+.suscription-title {
+    margin-bottom: 4px;
+}
 .suscription-title h1 {
-    font-size: 24px;
-    font-weight: 600;
     color: #1A1A1A;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
 }
 
 .suscription-content p {
+    color: #999;
     font-size: 14px;
+    font-style: normal;
     font-weight: 400;
-    color: #999999;
+    line-height: 150%;
 }
 
 .subscription-input {
@@ -1639,7 +1645,7 @@ footer {
 }
 
 .suscription-container2 {
-    margin: 0 35px
+    margin: 0 88px 0 86px;
 }
 
 .input-button-footer {
@@ -1652,7 +1658,6 @@ footer {
 .suscription-container3 {
     display: flex;
     align-items: center;
-    margin: 0 25px;
 }
 
 .facebook-footer-container {
@@ -1664,7 +1669,7 @@ footer {
     width: 40px;
     border-radius: 500px;
     align-items: center;
-    margin: 0 7px;
+    cursor: pointer;
 }
 
 .facebook-footer-container img {
@@ -1675,13 +1680,13 @@ footer {
 .instagram-footer-container {
     width: 18px;
     height: 18px;
-    margin: 0 7px;
+    margin-left: 19px;
+    cursor: pointer;
 }
 
 .content-footer {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     width: 100%;
     height: 35vh;
     background-color: #1A1A1A;
@@ -1690,72 +1695,101 @@ footer {
 .content1-footer {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .text-contact-content1-footer {
-    margin: 0 20px;
+    margin: 74px 56.5px 68px 300px;
 }
 
 .text-content1-footer p {
-    font-size: 14px;
-    font-weight: 400;
     color: #808080;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
 }
 
 .phone-or-email {
     display: flex;
     align-items: center;
+    margin-top: 47px;
 }
 
 .phone-email-border {
-    border-bottom: 1px solid #20B526;
+    box-shadow: 0px 1.5px 0px 0px #20B526;
     padding: 6px 0;
 }
 
 .phone-number-footer {
+    color: #FFF;
     font-size: 14px;
-    color: #FFFFFF;
+    font-style: normal;
     font-weight: 500;
+    line-height: 150%
 }
 
 .or-footer {
-    font-size: 16px;
-    font-weight: 400;
     color: #808080;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0 16px;
 }
 
 .email-footer {
+    color: #FFF;
     font-size: 14px;
-    color: #FFFFFF;
+    font-style: normal;
     font-weight: 500;
+    line-height: 150%
 }
 
 .content2-footer {
     display: flex;
     flex-direction: row;
+    color: #999;
     font-size: 14px;
-    color: #999999;
+    font-style: normal;
     font-weight: 400;
+    line-height: 150%;
 }
 
-.column1-content2-footer, .column2-content2-footer, .column3-content2-footer, .column4-content2-footer {
-    margin: 0 40px;
+.column2-content2-footer {
+    margin: 0 64px 0 54.5px;
+}
+.column4-content2-footer {
+    margin-left: 146.5px;
+}
+
+.margin-term-footer {
+    margin: 12px 0;
 }
 
 .column1-content2-footer h3, .column2-content2-footer h3, .column3-content2-footer h3, .column4-content2-footer h3 {
-    color: #FFFFFF;
+    color: #FFF;
     font-size: 16px;
+    font-style: normal;
     font-weight: 500;
+    line-height: 150%;
+    margin-bottom: 20px;
 }
 
 .rewards-zone-footer {
-    color: #666666;
+    color: #666;
     font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 12px 0;
 }
 
 .shopping-cart-footer {
-    color: #FFFFFF;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
 }
 
 .content3-footer {
