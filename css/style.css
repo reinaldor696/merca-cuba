@@ -253,6 +253,219 @@ header {
     justify-content: space-between;
 }
 
+.buttons-menu {
+    width: 441px;
+    height: 667px;
+    background: linear-gradient(180deg, #333 0%, #000 100%);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    z-index: 3;
+    margin-top: 8px;
+    padding: 75.28px 0 0 66px;
+}
+
+.buttons-menu img {
+    width: 10px;
+    height: 4.58px;
+    margin-left: 8px;
+}
+
+.menu-user-button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.menu-user-button p {
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.menu-id-button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #757575;
+    padding-bottom: 30px;
+    width: 316px;
+    margin-top: 10px;
+}
+.menu-id-button p {
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.menu-best-product-button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+}
+.menu-best-product-button p {
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.menu-deals-button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border-bottom: 2px solid #757575;
+    padding-bottom: 30px;
+    width: 316px;
+    
+}
+.menu-deals-button p {
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.menu-my-profile-button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 30px;
+}
+.menu-my-profile-button p {
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.menu-spin-button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.menu-spin-button p {
+    color: #999;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.menu-achievements-button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.menu-achievements-button p {
+    color: #999;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.menu-ticket-button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.menu-ticket-button p {
+    color: #999;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.menu-code-button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border-bottom: 2px solid #757575;
+    padding-bottom: 30px;
+    width: 316px;
+}
+.menu-code-button p {
+    color: #999;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.menu-contact-button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 10px;
+}
+.menu-contact-button p {
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.menu-aboutus-button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.menu-aboutus-button p {
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+
+}
+
 .menu-nav {
     display: flex;
     flex-direction: row;
