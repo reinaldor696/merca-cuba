@@ -27,24 +27,28 @@ header {
 
 .header-container1 {
     width: 100%;
-    height: 10vh;
-    border-bottom: 1px solid black;
+    height: 42px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 0px 0px #E5E5E5;
 }
+
 .header-container2 {
     width: 100%;
-    height: 15vh;
+    height: 93px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
 }
 
 .logo-container {
     display: flex;
     align-items: center;
+    margin-left: 217px;
+    margin-right: 187px;
 }
 .img-logo-header {
     width: 56px;
     height: 56px;
+    margin-right: 15px;
 }
 .img-marca-header {
     width: 152px;
@@ -53,7 +57,7 @@ header {
 
 .input-header-container {
     display: flex;
-    margin-left: 7px;
+    margin-right: 91px;
     align-items: center;
 }
 
@@ -70,6 +74,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 16px;
 }
 .icon-search-span1 img {
     width: 13.33px;
@@ -79,8 +84,7 @@ header {
 .input-search {
     width: 400px;
     height: 45px;
-    Padding: 12px 18px 12px 16px;
-    gap: 8px;
+    Padding: 12px 18px 12px 39px;
     font-weight: 400;
     font-size: 15px;
     color: #808080;
@@ -116,14 +120,25 @@ header {
     font-size: 12px;
     display: flex;
     align-items: center;
+    margin-left: 8px
+}
+.language-text p {
+    color: #666;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
 }
 
 .chevron-down-header {
     display: flex;
     align-items: center;
+    margin-left: 6px;
 }
 .chevron-down-header img{
-    Width: 15px;
+    width: 7px;
+    height: 3.5px;
 }
 
 .currency-container {
@@ -132,35 +147,49 @@ header {
     flex-direction: row;
     border-right: 1px solid #E6E6E6;
     width: 60px;
-    height: 20px;
+    height: 15px;
+    margin-left: 75px;
 }
 .currency p {
-    font-weight: 400;
+    color: #666;
+    text-align: center;
     font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
 }
 
 .account-container {
     display: flex;
     align-items: center;
-    border-right: 1px solid #E6E6E6;
-    width: 220px;
-    height: 20px;
+    margin-left: 20px;
+    margin-right: 29px;
 }
 
 .account-profile  p {
-    font-weight: 400;
+    color: #666;
     font-size: 12px;
-    width: 7vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
 }
 
+.account-image {
+    display: flex;
+    align-items: center;
+}
 .account-image img {
     width: 63px;
     height: 42px;
+    margin-left: 5px;
 }
 
 .shopping-bag {
     display: flex;
     align-items: center;
+    border-left: 1px solid #E6E6E6;
+    height: 15px;
+    padding-left: 16px
 }
 
 .item-number {
@@ -189,15 +218,22 @@ header {
     z-index: 1;
 }
 
+.shopping-info {
+    margin-left: 12px;
+}
 .shopping-info p {
-    font-size: 11px;
-    font-weight: 400;
     color: #4D4D4D;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
 }
 .shopping-info span {
-    font-size: 14px;
-    font-weight: 500;
     color: #1A1A1A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
 }
 
 .header-container3 {
@@ -1440,7 +1476,7 @@ header {
 .container4 {
     display: flex;
     flex-direction: column;
-    width: 1920px;
+    width: 100%;
     height: 464px;
     background: #F7F7F7;
     margin-bottom: 30px;
