@@ -8,7 +8,7 @@
 /* ################################## */
             /*Fonts*/
 /* ################################## */
-@import url(fonts/);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* ################################## */
             /*Fonts*/
 /* ################################## */
@@ -92,8 +92,12 @@ header {
     border: 1px solid #E6E6E6;
     border-radius: 6px 0px 0px 6px;
 }
+.input-search::placeholder {
+    font-family: "Poppins", sans-serif;
+}
 
 .button-search button {
+    font-family: "Poppins", sans-serif;
     width: 98px;
     height: 45px;
     border-radius: 0px 6px 6px 0px;
@@ -259,6 +263,7 @@ header {
 
 .menu-icon-nav {
     margin: 0 39px 0 62px;
+    cursor: pointer;
 }
 
 .menu-icon {
@@ -501,6 +506,7 @@ header {
     font-size: 16px;
     font-weight: 600;
     color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
 } 
 
 .button-content1-container1 img {
@@ -607,6 +613,7 @@ header {
     font-weight: 600;
     font-size: 16px;
     color: #057A10;
+    font-family: "Poppins", sans-serif;
 }
 .button-content2-container1 img {
     width: 15px;
@@ -674,6 +681,7 @@ header {
     cursor: pointer;
 }
 .button-content3-container1 p {
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 600;
     color: #FFFFFF;
@@ -812,6 +820,7 @@ header {
     cursor: pointer;
 }
 .button-top-product-jumex p {
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -834,6 +843,7 @@ header {
     margin: 0 50px 0 50px;
 }
 .button-top-product-charro p {
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -855,6 +865,7 @@ header {
     cursor: pointer;
 }
 .button-top-product-power8 p {
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -967,6 +978,7 @@ header {
     width: 6px;
     height: 6px;
     margin-left: 3px;
+    cursor: pointer;
 }
 
 .button-delete-stock-container {
@@ -974,6 +986,7 @@ header {
     cursor: pointer;
     background: transparent;
     margin-left: 5px;
+    cursor: pointer;
 }
 .button-delete-stock-container img {
     width: 10px;
@@ -984,6 +997,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .img1-product-container2 img {
     width: 120px;
@@ -996,6 +1010,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 8px 16px 30px 20px
+}
+
+.container-info {
+    cursor: pointer;
 }
 
 .title-product0-container3 {
@@ -1125,6 +1143,7 @@ header {
     justify-content: center;
     width: 264px;
     height: 233px;
+    cursor: pointer;
 }
 
 .img1-product5-container2 img {
@@ -1167,6 +1186,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .img1-product-content4-container2 img {
     width: 192px;
@@ -1179,6 +1199,7 @@ header {
     width: 264px;
     height: 233px;
     align-items: center;
+    cursor: pointer;
 }
 .img2-product-content4-container2 img {
     width: 162px;
@@ -1278,6 +1299,7 @@ header {
     cursor: pointer;
 } 
 .button-content3-container3 p {
+    font-family: "Poppins", sans-serif;
     color: #FFFFFF;
     font-size: 16px;
     font-style: normal;
@@ -1392,6 +1414,7 @@ header {
     background: #3884BF;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 .daily-deal1-container3 p {
     color: #FFFFFF;
@@ -1448,6 +1471,7 @@ header {
     background-position: bottom center;
     background-repeat: no-repeat;
     margin: 0 26px;
+    cursor: pointer;
 }
 .daily-deal2-container3 p {
     color: #FFF;
@@ -1489,6 +1513,7 @@ header {
     height: 537px;
     border-radius: 10px;
     background: #FCC900;
+    cursor: pointer;
 }
 .daily-deal3-container1 p {
     color: #000;
@@ -1506,6 +1531,7 @@ header {
     font-style: normal;
     font-weight: 600;
     line-height: 120%;
+    margin-bottom: 12px;
 }
 
 .daily-deal-text {
@@ -1582,6 +1608,7 @@ header {
 footer {
     width: 100%;
     height: 55vh;
+    font-family: "Poppins", sans-serif;
 }
 
 .suscription-footer-container {
@@ -1590,6 +1617,7 @@ footer {
     background-color: #F7F7F7;
     display: flex;
     align-items: center;
+    font-family: "Poppins", sans-serif;
 }
 
 .suscription-container1 {
@@ -1605,6 +1633,7 @@ footer {
     font-style: normal;
     font-weight: 600;
     line-height: 150%;
+    font-family: "Poppins", sans-serif;
 }
 
 .suscription-content p {
@@ -1626,6 +1655,9 @@ footer {
     border: 1px solid #E6E6E6;
     border-radius: 46px;
 }
+.subscription-input::placeholder {
+    font-family: "Poppins", sans-serif;
+}
 
 .subscription-button {
     position: absolute;
@@ -1633,6 +1665,7 @@ footer {
 .subscription-button button {
     width: 162px;
     height: 52px;
+    font-family: "Poppins", sans-serif;
     border-radius: 43px;
     Padding: 16px 40px 16px 40px;
     Gap: 12px;
@@ -1688,7 +1721,7 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 35vh;
+    height: auto;
     background-color: #1A1A1A;
 }
 
@@ -1773,6 +1806,10 @@ footer {
     font-weight: 500;
     line-height: 150%;
     margin-bottom: 20px;
+    cursor: pointer;
+}
+.column1-content2-footer p, .column2-content2-footer p, .column3-content2-footer p, .column4-content2-footer p {
+    cursor: pointer;
 }
 
 .rewards-zone-footer {
@@ -1801,9 +1838,10 @@ footer {
 .content3-container-footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid;
+    box-shadow: 0px -1px 0px 0px #333;
     align-items: center;
-    width: 60%;
+    width: 1320px;
+    padding: 29.5px 0;
 }
 
 .all-rights-reserved-footer {
@@ -1820,6 +1858,9 @@ footer {
     height: 31.76px;
 }
 
+.visa {
+    margin: 0 8px 0 8px;
+}
 .visa img {
     width: 45px;
     height: 31.76px;
@@ -1833,6 +1874,7 @@ footer {
 .mastercard {
     width: 45px;
     height: 31.76px;
+    margin: 0 8px 0 8px;
 }
 
 .secure-payment {
