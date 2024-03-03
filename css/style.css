@@ -2212,6 +2212,75 @@ header {
 }
 /* Section Sign Up End */
 
+/* Section User Account */
+.user-account {
+    color: black;
+}
+
+.account-panel-contol {
+    background-image: url("../media/icons/content-user-account/Breadcrumbs.png");
+    width: 100%;
+    height: 120px;
+    background-repeat: no-repeat;
+}
+
+.content-user-account {
+    display: flex;
+    flex-direction: row;
+    margin: 32px 0 70px 341px;
+}
+
+.content-panel-control {
+    width: 270px;
+    height: 557px;
+    border-radius: 8px;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+    padding: 38px 0 43px 28px;
+}
+.content-panel-control div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.arrow-user-account {
+    width: 10px;
+    height: 4.58px;
+}
+
+.img-promo-user-account {
+    width: 19px;
+    height: 19px;
+}
+
+.edit-profile-container {
+    width: 536px;
+    height: 278px;
+    border-radius: 8px;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 24px 0 25px;
+}
+.edit-profile-container img {
+    width: 120px;
+    height: 120px;
+}
+
+.edit-direction-container {
+    width: 424px;
+    height: 278px;
+    border-radius:  8px;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+    padding: 32px 0 32px 32px;
+}
+/* Section User Account End */
+
 /* footer */
 footer {
     width: 100%;
