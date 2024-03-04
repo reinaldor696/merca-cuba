@@ -2419,7 +2419,11 @@ header {
 .content-set-up-account {
     display: flex;
     flex-direction: row;
-    margin: 34px 0 0 341px;
+    margin: 34px 0 610px 341px;
+}
+
+.content-edit-setup {
+    margin-left: 25px;
 }
 
 .edit-profile-container-set-up-account {
@@ -2430,6 +2434,7 @@ header {
     border-radius: 8px;
     border: 1px solid #E6E6E6;
     background: #FFF;
+    padding: 16px 0px 0 24px
 }
 
 .edit-profile-photo-container img {
@@ -2448,6 +2453,8 @@ header {
     border-radius: 8px;
     border: 1px solid #E6E6E6;
     background: #FFF;
+    padding: 16px 0px 0 24px;
+    margin: 26px 0;
 }
 
 .img-open-eye-user-account {
@@ -2461,6 +2468,7 @@ header {
     border-radius: 8px;
     border: 1px solid #E6E6E6;
     background: #FFF;
+    padding: 16px 0px 0 24px
 }
 /* Section User Account End */
 
