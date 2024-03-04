@@ -2427,19 +2427,100 @@ header {
 }
 
 .edit-profile-container-set-up-account {
-    display: flex;
-    flex-direction: row;
     width: 984px;
     height: 533px;
     border-radius: 8px;
     border: 1px solid #E6E6E6;
     background: #FFF;
-    padding: 16px 0px 0 24px
+}
+.edit-profile-container-set-up-account h2 {
+    color: #1A1A1A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    display: flex;
+    width: 984px;
+    padding: 16px 0px 16px 24px;
+    box-shadow: 0px 1px 0px 0px #E5E5E5;
+    align-items: center;
+
 }
 
+.edit-profile-form {
+    display: flex;
+    flex-direction: row;
+    padding: 24px 0 24px 24px;
+}
+
+.edit-name-email-container p {
+    color: #1A1A1A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.edit-name-email-container input {
+    display: flex;
+    width: 512px;
+    height: 49px;
+    padding: 14px 0 14px 16px;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+    margin: 6px 0 16px 0;
+}
+.edit-name-email-container input::placeholder {
+    color: #666;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    font-family: "Poppins", sans-serif;
+}
+.edit-name-email-container button {
+    font-family: "Poppins", sans-serif;
+    display: inline-flex;
+    padding: 14px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 43px;
+    background: #057A10;
+    cursor: pointer;
+    color: #FFFFFF;
+    border: none;
+}
+
+.edit-profile-photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 32px 0 0 112px; 
+}
 .edit-profile-photo-container img {
     width: 224px;
     height: 224px;
+}
+.edit-profile-photo-container button {
+    margin-top: 20px;
+    cursor: pointer;
+    display: inline-flex;
+    padding: 14px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 43px;
+    font-family: "Poppins", sans-serif;
+    border: 2px solid #057A10;
+    background: #FFF;
+    color: #057A10;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
 }
 
 .country-edit-container img {
