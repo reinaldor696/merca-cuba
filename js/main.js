@@ -1,7 +1,8 @@
-menuButton = document.querySelector(".buttons-menu");
-signInSection = document.querySelector(".sign-in");
-signUpSection = document.querySelector(".sign-up");
-homeSection = document.querySelector(".home");
+const menuButton = document.querySelector(".buttons-menu");
+const signInSection = document.querySelector(".sign-in");
+const signUpSection = document.querySelector(".sign-up");
+const homeSection = document.querySelector(".home");
+const userAccount = document.querySelector(".user-account");
 
 function menuNavHeader() {
     if (menuButton.style.display === "block") {
@@ -19,6 +20,7 @@ function sectionSingIn() {
     signInSection.style.display = "flex";
 
     homeSection.style.display = "none";
+    userAccount.style.display = "none";
 
     menuNavHeader();
 }
@@ -33,4 +35,23 @@ function sectionSingInFromSignUp() {
     signInSection.style.display = "flex";
 
     signUpSection.style.display = "none";
+    userAccount.style.display = "none";
+}
+
+function sectionUserAccount() {
+    userAccount.style.display = "block";
+
+    homeSection.style.display = "none";
+    signInSection.style.display = "none";
+    signUpSection.style.display = "none";
+}
+
+function sectionUserAccountFromMenu() {
+    userAccount.style.display = "block";
+
+    homeSection.style.display = "none";
+    signInSection.style.display = "none";
+    signUpSection.style.display = "none";
+
+    menuNavHeader();
 }

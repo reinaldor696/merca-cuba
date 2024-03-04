@@ -2214,7 +2214,7 @@ header {
 
 /* Section User Account */
 .user-account {
-    color: black;
+    display: none;
 }
 
 .account-panel-contol {
@@ -2312,9 +2312,38 @@ header {
     justify-content: center;
     margin: 0 24px 0 25px;
 }
+.edit-profile-container p {
+    color: #808080;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
 .edit-profile-container img {
     width: 120px;
     height: 120px;
+}
+.edit-profile-container h3 {
+    color: #1A1A1A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin: 8px 0 2px 0;
+}
+.edit-profile-container button {
+    border: none;
+    cursor: pointer;
+    color: #057A10;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    font-family: "Poppins", sans-serif;
+    background: transparent;
+    margin-top: 9px;
 }
 
 .edit-direction-container {
@@ -2325,6 +2354,58 @@ header {
     background: #FFF;
     padding: 32px 0 32px 32px;
 }
+.edit-direction-container h3 {
+    color: #999;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+.edit-direction-container h4 {
+    color: #1A1A1A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin: 18px 0 8px 0;
+}
+.edit-direction-container h5 {
+    color: #666;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 8px 0 6px 0;
+}
+.edit-direction-container h6 {
+    color: #1A1A1A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.edit-direction-container p {
+    color: #1A1A1A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.edit-direction-container button {
+    font-family: "Poppins", sans-serif;
+    color: #057A10;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    margin-top: 19px;
+}
+
 /* Section User Account End */
 
 /* footer */
