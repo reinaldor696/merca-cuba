@@ -3034,14 +3034,6 @@ header {
     margin-top: 32px;
 }
 
-.box-content-payment-container {
-    width: 424px;
-    height: 503px;
-    border-radius: 8px;
-    border: 1px solid #E6E6E6;
-    background: #FFF;
-    margin-left: 24px;
-}
 
 .title-price {
     margin: 0 61px 0 302px;
@@ -3240,19 +3232,193 @@ header {
     margin-left: 20px;
 }
 
+.box-content-payment-container {
+    padding: 24px 0 39px 0;
+    margin-top: 32px;
+    width: 424px;
+    height: 503px;
+    border-radius: 8px;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+    margin-left: 24px;
+}
+.box-content-payment-container h2 {
+    color: #1A1A1A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin-left: 24px;
+}
+
+.redeem-code { 
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+    margin: 10px 0 30px 0;
+    margin-left: 24px;
+}
+.redeem-code p {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration-line: underline;
+}
 .redeem-code img {
     width: 39px;
     height: 36px;
+    margin-left: 3px;
+}
+
+.subtotal-payment-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #FFF;
+    box-shadow: 0px 1px 0px 0px #E5E5E5;
+    padding-bottom: 12px;
+    margin-left: 24px;
+    width: 376px;
+}
+.subtotal-payment-container p {
+    color: #4D4D4D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.subtotal-payment-container span {
+    color: #1A1A1A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.free-shipping {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #FFF;
+    box-shadow: 0px 1px 0px 0px #E5E5E5;
+    padding-bottom: 12px;
+    margin: 12px 0 0 24px;
+    width: 376px;
+}
+.free-shipping p {
+    color: #4D4D4D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.free-shipping span {
+    color: #1A1A1A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.total-payment-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 8.5px 0 21.5px 0;
+    padding: 0 24px 0 24px;
+}
+.total-payment-container p {
+    color: #4D4D4D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.total-payment-container span {
+    color: #1A1A1A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.payment-method-apple {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 379px;
+    height: 51px;
+    border-radius: 22px;
+    background: #000;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    margin-left: 27px;
+}
+.payment-method-apple p {
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.28px;
 }
 
 .payment-method-apple img {
     width: 39.211px;
     height: 16.1px;
+    margin-left: 4.89px;
+}
+
+.payment-method-moonpay {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 379px;
+    height: 51px;
+    border-radius: 22px;
+    background: #00B2FF;
+    margin: 16px 0 38px 27px;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+}
+.payment-method-moonpay p {
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.28px;
+}
+.payment-method-moonpay span {
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.28px;
+    margin-left: 4.89px;
 }
 
 .img-master-cart-shoppin {
     width: 25px;
     height: 25px;
+}
+
+.payment-method-master-visa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .img-visa-cart-shopping {
