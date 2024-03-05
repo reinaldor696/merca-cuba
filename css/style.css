@@ -2856,6 +2856,10 @@ header {
 /* Section User Account End */
 
 /**/
+.historial-order {
+    display: none;
+}
+
 .historial-panel-control {
     background-image: url("../media/icons/content-user-account/Breadcrumbs.png");
     width: 100%;
