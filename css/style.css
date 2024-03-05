@@ -2409,6 +2409,10 @@ header {
 /* Section User Account End */
 
 /* Section Setup Account */
+.set-up-account {
+    display: none;
+}
+
 .account-set-up {
     background-image: url("../media/icons/content-user-account/Breadcrumbs-account-ajuste.png");
     width: 100%;

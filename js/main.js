@@ -3,6 +3,8 @@ const signInSection = document.querySelector(".sign-in");
 const signUpSection = document.querySelector(".sign-up");
 const homeSection = document.querySelector(".home");
 const userAccount = document.querySelector(".user-account");
+const setupAccount = document.querySelector(".set-up-account");
+const footer = document.querySelector("footer");
 
 function menuNavHeader() {
     if (menuButton.style.display === "block") {
@@ -18,40 +20,60 @@ function menuNavHeader() {
 
 function sectionSingIn() {
     signInSection.style.display = "flex";
+    footer.style.display = "block";
 
     homeSection.style.display = "none";
     userAccount.style.display = "none";
+    setupAccount.style.display = "none";
 
     menuNavHeader();
 }
 
 function signUp() {
     signUpSection.style.display = "flex";
+    footer.style.display = "block";
 
     signInSection.style.display = "none";
+    setupAccount.style.display = "none";
 }
 
 function sectionSingInFromSignUp() {
     signInSection.style.display = "flex";
+    footer.style.display = "block";
 
     signUpSection.style.display = "none";
     userAccount.style.display = "none";
+    setupAccount.style.display = "none";
 }
 
 function sectionUserAccount() {
     userAccount.style.display = "block";
+    footer.style.display = "block";
 
     homeSection.style.display = "none";
     signInSection.style.display = "none";
     signUpSection.style.display = "none";
+    setupAccount.style.display = "none";
 }
 
 function sectionUserAccountFromMenu() {
     userAccount.style.display = "block";
+    footer.style.display = "block";
 
     homeSection.style.display = "none";
     signInSection.style.display = "none";
     signUpSection.style.display = "none";
+    setupAccount.style.display = "none";
 
     menuNavHeader();
+}
+
+function sectionSetupAccount() {
+    setupAccount.style.display = "block"
+
+    homeSection.style.display = "none";
+    signInSection.style.display = "none";
+    signUpSection.style.display = "none";
+    userAccount.style.display = "none";
+    footer.style.display = "none";
 }
