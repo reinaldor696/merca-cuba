@@ -2855,6 +2855,137 @@ header {
 }
 /* Section User Account End */
 
+/**/
+.historial-panel-control {
+    background-image: url("../media/icons/content-user-account/Breadcrumbs.png");
+    width: 100%;
+    height: 120px;
+    background-repeat: no-repeat;
+}
+
+.content-historial-order {
+    display: flex;
+    flex-direction: row;
+    margin: 32px 0 263px 341px;
+}
+
+.historial-shopping-container {
+    width: 984px;
+    height: 404px;
+    border-radius:8px;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+    margin-left: 25px;
+}
+
+.historial-shopping {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.historial-shopping h2 {
+    color: #1A1A1A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin: 16px 0 16px 24px;
+}
+.historial-shopping button {
+    font-family: "Poppins", sans-serif;
+    color: #057A10;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    margin-right: 18px;
+}
+
+.title-order {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 984px;
+    height: 36px;
+    background: #F2F2F2;
+    padding-left: 24px;
+}
+.title-order li {
+    color: #4D4D4D;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.36px;
+    text-transform: uppercase;
+}
+
+.order-status {
+    margin-left: 229px;
+}
+
+.date-order {
+    margin: 0 183px 0 90px;
+}
+
+.order-date-historial {
+    margin: 0 133px 0 139px;
+}
+
+.order-status-historial {
+    margin: 0 109px 0 117px;
+}
+
+
+.order-content-container {
+    padding: 24px 0 0 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.order-content-container ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.order-content-container li {
+    color: #333;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.order-content-container span {
+    color: #333;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.more-detail-buttons button {
+    color: #057A10;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+.text-separation-historial {
+    margin: 24px 0;
+}
+.text-separation-historial1 {
+    margin-top: 24px;
+}
+/**/
+
 /* footer */
 footer {
     width: 100%;
