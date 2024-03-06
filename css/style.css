@@ -3097,6 +3097,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .subtotal-price {
@@ -3674,6 +3675,7 @@ header {
 
 .apple-product-description {
     margin-top: 19px;
+    cursor: pointer;
 }
 .apple-product-description span {
     color: #057A10;
@@ -3699,6 +3701,7 @@ header {
     font-weight: 500;
     line-height: 150%;
     margin: 15px 0;
+    cursor: pointer;
 }
 
 .img-productproduct-description {
