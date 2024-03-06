@@ -131,7 +131,7 @@
                   <img src="./media/icons/header/Chevron Down.png" alt="vector" class="product-vector">
                 </div>
   
-                <div class="about-us-nav">
+                <div class="about-us-nav" onclick="sectionAboutUs()">
                   <p>Sobre Nosotros</p>
                 </div>
   
@@ -231,7 +231,7 @@
                 <img src="./media/icons/header/Vector.png" alt="vector">
               </button>
 
-              <button class="menu-aboutus-button">
+              <button class="menu-aboutus-button" onclick="sectionAboutUsFromMenu()">
                 <p>Sobre nosotros</p>
                 <img src="./media/icons/header/Vector.png" alt="vector">
               </button>
@@ -1971,7 +1971,82 @@
           </div>
           <!-- Shopping Cart End -->
 
-          
+          <!-- About Us -->
+          <div class="about-us">
+            <div class="about-us-panel-control"></div>
+
+            <div class="content1-about-us">
+              <div>
+                <div class="content1-about-us-container">
+                  <h2>Mercacuba</h2>
+
+                  <p>Mercacuba nace como <span>plataforma líder de servicio 24/7</span><br> enfocado en el país de
+                    Cuba, con soporte constante,<br> garantía de calidad y accesible desde cualquier
+                    lugar del<br> mundo.
+                    </p>
+                </div>
+
+                <div class="content2-about-us-container">
+                  <h2>Métodos de Pago</h2>
+
+                  <p>Proveemos pagos <span>seguros, rápidos y de confianza</span><br> supervisados por nuestro equipo de compliance. En un<br> solo click desde el teléfono con apple o Google
+                    pay hasta<br> cryptomonedas (USDT o Ethereum); todo para dotar de la<br> mayor de
+                    las posibilidades a nuestros clientes que se<br> convierten en familia.</p>
+                </div>
+              </div>
+
+              <div class="img1-about-us-container">
+                <img src="./media/icons/content-about-us/Image.png" alt="image">
+              </div>
+            </div>
+
+            <div class="content2-about-us">
+              <div class="img2-about-us-container">
+                <img src="./media/icons/content-about-us/Image1.png" alt="image">
+              </div>
+
+              <div class="content3-4-about-us">
+                <div class="content3-about-us-container">
+                  <h2>Tiempo de Entrega</h2>
+
+                  <p>Una vez es aprobado, las órdenes llegan <span>el mismo día<br> hábil</span>; dando el servicio
+                    más eficaz existente en la<br> provincia de La Habana dónde arrancamos mercacuba,<br> para el resto de provincias que iremos abriendo<br> seguiremos el
+                    mismo proceso eficaz y profesional como<br> nuestros clientes merecen.
+                    </p>
+                </div>
+
+                <div class="content4-about-us-container">
+                  <h2>Garantía de Entrega</h2>
+
+                  <p>MercaCuba tiene su propia filial de logística ahora mismo<br> en La Habana,
+                    siendo nuestro sello garantizar la calidad y<br> siempre tener la responsabilidad,
+                    además del privilegio,<br> de servir a nuestros clientes nosotros mismos. La<br>
+                    garantía, <span>confianza, rapidez y calidad</span> son estándares de<br> nuestra llegada al
+                    mercado.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="content3-about-us">
+              <h2>Otras Preguntas</h2>
+
+              <p><span class="question-stylo">¿CÓMO SE RECIBIRÁ EL PEDIDO EN SU DESTINO?</span><br>
+                Su compra será recibida en su totalidad y <span class="text-decoration-about-us">el mismo día de su compra</span>, no
+                entendemos la posibilidad de<br> hacerlo de otra manera.<br>
+                <span class="question-stylo">¿CÓMO PUEDO SEGUIR EL ESTADO DE MI COMPRA?</span><br>
+                Puede consultar el estado de su compra en nuestro sitio web a través de la
+                opción &quot;Mi Cuenta-Mis<br> Órdenes&quot;. Además, recibirá notificaciones por correo
+                electrónico o whatsapp informándole sobre cada etapa<br> de su compra.<br>
+                <span class="question-stylo">¿QUÉ HACER ANTE CUALQUIER DUDA O CONSULTA?</span><br>
+                Contamos con un equipo de atención al cliente disponible a través del correo
+                electrónico <span class="email-stylo">soporte@mercacuba.com</span><br> o a través de whatsapp Messenger 666 666 666 Merca Cuba.<br>
+                <span class="question-stylo">¿Y SI SURGE UN PROBLEMA CON MI PEDIDO YA ENTREGADO?</span><br>
+                Si encuentra algún problema con su orden entregada, puede enviar su
+                reclamación a soporte@mercacuba.com, la<br> cual será atendida en el transcurso
+                de 24 horas hábiles.</p>
+            </div>
+          </div>
+          <!-- About Us End -->
 
           <!-- Footer -->
           <footer>
@@ -2047,7 +2122,7 @@
 
                   <div class="column3-content2-footer">
                     <h3>Conoce más</h3>
-                    <p>Sobre Nosotros</p>
+                    <p onclick="sectionAboutUs()">Sobre Nosotros</p>
                     <p class="margin-term-footer">Tienda</p>
                     <p>pedidos</p>
                   </div>

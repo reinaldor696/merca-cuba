@@ -7,6 +7,7 @@ const setupAccount = document.querySelector(".set-up-account");
 const footer = document.querySelector("footer");
 const historialOrder = document.querySelector(".historial-order");
 const shoppingCart = document.querySelector(".shopping-cart");
+const aboutUs = document.querySelector(".about-us")
 
 function menuNavHeader() {
     if (menuButton.style.display === "block") {
@@ -29,6 +30,7 @@ function sectionSingIn() {
     setupAccount.style.display = "none";
     historialOrder.style.display = "none";
     shoppingCart.style.display = "none";
+    aboutUs.style.display = "none";
 
     menuNavHeader();
 }
@@ -41,6 +43,7 @@ function signUp() {
     setupAccount.style.display = "none";
     historialOrder.style.display = "none";
     shoppingCart.style.display = "none";
+    aboutUs.style.display = "none";
 }
 
 function sectionSingInFromSignUp() {
@@ -52,6 +55,7 @@ function sectionSingInFromSignUp() {
     setupAccount.style.display = "none";
     historialOrder.style.display = "none";
     shoppingCart.style.display = "none";
+    aboutUs.style.display = "none";
 }
 
 function sectionUserAccount() {
@@ -64,6 +68,7 @@ function sectionUserAccount() {
     setupAccount.style.display = "none";
     historialOrder.style.display = "none";
     shoppingCart.style.display = "none";
+    aboutUs.style.display = "none";
 }
 
 function sectionUserAccountFromMenu() {
@@ -76,6 +81,7 @@ function sectionUserAccountFromMenu() {
     setupAccount.style.display = "none";
     historialOrder.style.display = "none"
     shoppingCart.style.display = "none";
+    aboutUs.style.display = "none";
 
     menuNavHeader();
 }
@@ -90,6 +96,7 @@ function sectionSetupAccount() {
     footer.style.display = "none";
     historialOrder.style.display = "none"
     shoppingCart.style.display = "none";
+    aboutUs.style.display = "none";
 }
 
 function sectionHistorialOrder() {
@@ -102,6 +109,7 @@ function sectionHistorialOrder() {
     userAccount.style.display = "none";
     setupAccount.style.display = "none";
     shoppingCart.style.display = "none";
+    aboutUs.style.display = "none";
 }
 
 function sectionShoppingCart() {
@@ -113,4 +121,31 @@ function sectionShoppingCart() {
     signUpSection.style.display = "none";
     userAccount.style.display = "none";
     setupAccount.style.display = "none";
+    aboutUs.style.display = "none";
+}
+
+function sectionAboutUs() {
+    aboutUs.style.display = "block";
+
+    footer.style.display = "none";
+    homeSection.style.display = "none";
+    signInSection.style.display = "none";
+    signUpSection.style.display = "none";
+    userAccount.style.display = "none";
+    setupAccount.style.display = "none";
+    shoppingCart.style.display = "none";
+}
+
+function sectionAboutUsFromMenu() {
+    aboutUs.style.display = "block";
+
+    footer.style.display = "none";
+    homeSection.style.display = "none";
+    signInSection.style.display = "none";
+    signUpSection.style.display = "none";
+    userAccount.style.display = "none";
+    setupAccount.style.display = "none";
+    shoppingCart.style.display = "none";
+
+    menuNavHeader();
 }

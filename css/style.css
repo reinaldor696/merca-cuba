@@ -3465,6 +3465,193 @@ header {
 }
 /* Section Shopping Cart End */
 
+/* About Us */
+.about-us {
+    display: none;
+}
+
+.about-us-panel-control {
+    background-image: url("../media/icons/content-about-us/Breadcrumbs.png");
+    width: 100%;
+    height: 120px;
+    background-repeat: no-repeat;
+}
+
+.content1-about-us {
+    display: flex;
+    flex-direction: row;
+}
+
+.content1-about-us {
+    margin: 126px 0 0 300px;
+}
+
+.content1-about-us-container h2 {
+    color: #1A1A1A;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    margin: 35px 0 22px 0;
+}
+.content1-about-us-container p {
+    color: #666;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.content1-about-us-container span {
+    color: #057A10;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.content2-about-us {
+    display: flex;
+    flex-direction: row;
+    margin: 115px 0 164px 0;
+    width: 100%;
+    height: 685px;
+    background: linear-gradient(180deg, #FAFAFA 0%, #FFF 100%);
+    box-shadow: 0px 1px 0px 0px #E5E5E5;
+}
+
+.content2-about-us-container h2 {
+    color: #1A1A1A;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    margin: 63px 0 22px 0;
+}
+.content2-about-us-container p {
+    color: #666;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.content2-about-us-container span {
+    color: #057A10;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.content3-about-us-container h2 {
+    color: #1A1A1A;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    margin: 87px 0 22px 0;
+}
+.content3-about-us-container p {
+    color: #666;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.content3-about-us-container span {
+    color: #057A10;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.content4-about-us-container h2 {
+    color: #1A1A1A;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    margin: 68px 0 22px 0;
+}
+.content4-about-us-container p {
+    color: #666;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.content4-about-us-container span {
+    color: #057A10;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.img1-about-us-container {
+    width: 716px;
+    height: 539px;
+    border-radius: 8px;
+    margin-left: 124px;
+}
+
+.img2-about-us-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.content3-4-about-us {
+    margin-left: -45px;
+}
+
+.img2-about-us-container img{
+    width: 1129px;
+    height: 685px;
+}
+
+.content3-about-us {
+    margin: 0 0 330px 301px;
+}
+.content3-about-us h2 {
+    color: #000;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 44px;
+}
+.content3-about-us p {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+.question-stylo {
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+.text-decoration-about-us {
+    color: #057A10;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+.email-stylo {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+
+/* About Us End */
+
 /* footer */
 footer {
     width: 100%;
