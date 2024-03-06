@@ -3056,7 +3056,7 @@ header {
 }
 
 .price-product-shopping-cart {
-    margin: 0 65px 0 135px;
+    margin: 0 46px 0 135px;
 }
 
 .plus-minus-container {
@@ -3073,6 +3073,16 @@ header {
 .plus-minus-container span {
     width: 40px;
     height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plus-minus-background {
+    width: 34px;
+    height: 34px;
+    border-radius: 170px;
+    background: #F2F2F2;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -3410,7 +3420,7 @@ header {
     margin-left: 4.89px;
 }
 
-.img-master-cart-shoppin {
+.img-master-cart-shopping {
     width: 25px;
     height: 25px;
 }
@@ -3419,6 +3429,23 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 373px;
+    height: 51px;
+    padding: 16px 40px;
+    gap: 16px;
+    border-radius: 43px;
+    border: 2px solid #057A10;
+    cursor: pointer;
+    background: transparent;
+    margin-left: 27px;
+}
+.payment-method-master-visa p {
+    color: #057A10;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
 }
 
 .img-visa-cart-shopping {
