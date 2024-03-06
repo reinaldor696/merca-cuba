@@ -2993,20 +2993,29 @@ header {
 /* Section Shopping Cart */
 .shopping-cart {
     display: none;
-    padding: 40px 0 0 330px;
     margin-bottom: 97px;
 }
+
+.shopping-cart-panel-control {
+    background-image: url("../media/icons/content-shopping-cart/Breadcrumbs.png");
+    width: 100%;
+    height: 120px;
+    background-repeat: no-repeat;
+}
+
 .shopping-cart-title {
     color: #1A1A1A;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
     line-height: 120%;
+    margin: 40px 0 0 330px; 
 }
 
 .content-shopping-container {
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;  
+    margin-left: 330px;  
 }
 .content-shopping-container ul {
     display: flex;
