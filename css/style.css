@@ -1304,6 +1304,7 @@ header {
     font-style: normal;
     font-weight: 500;
     line-height: 150%;
+    color: #1A1A1A;
 }
 
 .img-ticket-product-container2 {
@@ -3758,6 +3759,164 @@ header {
     border-bottom: 1px solid #E6E6E6;
     width: 647px;
 }
+
+.share-item-product-description {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.share-item-product-description h3 {
+    color:#1A1A1A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.share-item-social-media {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.facebook-product-description {
+    border: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    background-color: #00B207;
+    height: 40px;
+    width: 40px;
+    border-radius: 500px;
+    align-items: center;
+    cursor: pointer;
+}
+.facebook-product-description img {
+    width: 18px;
+    height: 18px;
+}
+
+.instagram-product-description {
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    cursor: pointer;
+}
+.instagram-product-description img {
+    width: 18px;
+    height: 18px;
+}
+
+.text-description-product-description p {
+    color:#808080;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.number-product-description {
+    display: flex;
+    padding: 18px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid var(--white-100, #FFF);
+    background: #FFF;
+    box-shadow: 0px 1px 0px 0px #E5E5E5, 0px -1px 0px 0px #E5E5E5;
+}
+
+.buy-button {
+    display: flex;
+    width: 447px;
+    height: 51px;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 43px;
+    background: #00B207;
+    cursor: pointer;
+    border: none;
+}
+.buy-button p {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    font-family: "Poppins", sans-serif;
+}
+.buy-button img {
+    width: 15px;
+    height: 15px;
+}
+
+.category-products-description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.category-products-description p {
+    color: #1A1A1A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+.category-products-description span {
+    color: #808080;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-left: 6px;
+}
+
+.content-info-product-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px 15px 13px;
+}
+
+.content2-product-description h2 {
+    color: #1A1A1A;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.match-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 37px 0 197px 415px
+}
+
+.img-ticket-product-description2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 8px;
+}
+.img-ticket-product-description2 p {
+    color: #000000;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+.img-ticket-product-description2 img {
+    width: 28px;
+    height: 26px;
+    margin-left: 3px;
+}
 /* Product Description End */
 
 /* footer */
@@ -3867,10 +4026,14 @@ footer {
 }
 
 .instagram-footer-container {
-    width: 18px;
-    height: 18px;
+    display: flex;
+    align-items: center;
     margin-left: 19px;
     cursor: pointer;
+}
+.instagram-footer-container img {
+    width: 18px;
+    height: 18px;
 }
 
 .content-footer {
