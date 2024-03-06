@@ -3669,8 +3669,12 @@ header {
     font-style: normal;
     font-weight: 600;
     line-height: 150%;
+    margin: 109px 0 15px 0;
 }
 
+.apple-product-description {
+    margin-top: 19px;
+}
 .apple-product-description span {
     color: #057A10;
     font-size: 16px;
@@ -3680,7 +3684,8 @@ header {
 }
 .content1-product-description {
     display: flex;
-    flex-direction: row;    
+    flex-direction: row; 
+    margin: 51px 0 0 312px;   
 }
 
 .content1-product-description-container {
@@ -3693,8 +3698,12 @@ header {
     font-style: normal;
     font-weight: 500;
     line-height: 150%;
+    margin: 15px 0;
 }
 
+.img-productproduct-description {
+    margin: 12px 127px 0 110px;
+}
 .img-productproduct-description img {
     width: 259px;
     height: 447px;
@@ -3733,6 +3742,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: 24px 0 20px 0;
 }
 .img-ticket-product-description p {
     color: #000;
@@ -3758,6 +3768,7 @@ header {
 .border-title-product-description {
     border-bottom: 1px solid #E6E6E6;
     width: 647px;
+    margin: 20px 0 8px 0;
 }
 
 .share-item-product-description {
@@ -3807,6 +3818,9 @@ header {
     height: 18px;
 }
 
+.text-description-product-description {
+    margin: 32px 0 24px 0;
+}
 .text-description-product-description p {
     color:#808080;
     font-size: 14px;
@@ -3856,6 +3870,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 24px;
 }
 .category-products-description p {
     color: #1A1A1A;
