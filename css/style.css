@@ -2992,6 +2992,7 @@ header {
 
 /* Section Shopping Cart */
 .shopping-cart {
+    display: none;
     padding: 40px 0 0 330px;
     margin-bottom: 97px;
 }
@@ -3429,6 +3430,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     width: 373px;
     height: 51px;
     padding: 16px 40px;

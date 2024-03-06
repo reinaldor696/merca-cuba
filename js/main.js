@@ -6,6 +6,7 @@ const userAccount = document.querySelector(".user-account");
 const setupAccount = document.querySelector(".set-up-account");
 const footer = document.querySelector("footer");
 const historialOrder = document.querySelector(".historial-order");
+const shoppingCart = document.querySelector(".shopping-cart");
 
 function menuNavHeader() {
     if (menuButton.style.display === "block") {
@@ -26,7 +27,8 @@ function sectionSingIn() {
     homeSection.style.display = "none";
     userAccount.style.display = "none";
     setupAccount.style.display = "none";
-    historialOrder.style.display = "none"
+    historialOrder.style.display = "none";
+    shoppingCart.style.display = "none";
 
     menuNavHeader();
 }
@@ -37,7 +39,8 @@ function signUp() {
 
     signInSection.style.display = "none";
     setupAccount.style.display = "none";
-    historialOrder.style.display = "none"
+    historialOrder.style.display = "none";
+    shoppingCart.style.display = "none";
 }
 
 function sectionSingInFromSignUp() {
@@ -47,7 +50,8 @@ function sectionSingInFromSignUp() {
     signUpSection.style.display = "none";
     userAccount.style.display = "none";
     setupAccount.style.display = "none";
-    historialOrder.style.display = "none"
+    historialOrder.style.display = "none";
+    shoppingCart.style.display = "none";
 }
 
 function sectionUserAccount() {
@@ -58,7 +62,8 @@ function sectionUserAccount() {
     signInSection.style.display = "none";
     signUpSection.style.display = "none";
     setupAccount.style.display = "none";
-    historialOrder.style.display = "none"
+    historialOrder.style.display = "none";
+    shoppingCart.style.display = "none";
 }
 
 function sectionUserAccountFromMenu() {
@@ -70,6 +75,7 @@ function sectionUserAccountFromMenu() {
     signUpSection.style.display = "none";
     setupAccount.style.display = "none";
     historialOrder.style.display = "none"
+    shoppingCart.style.display = "none";
 
     menuNavHeader();
 }
@@ -83,6 +89,7 @@ function sectionSetupAccount() {
     userAccount.style.display = "none";
     footer.style.display = "none";
     historialOrder.style.display = "none"
+    shoppingCart.style.display = "none";
 }
 
 function sectionHistorialOrder() {
@@ -93,5 +100,17 @@ function sectionHistorialOrder() {
     signInSection.style.display = "none";
     signUpSection.style.display = "none";
     userAccount.style.display = "none";
-    setupAccount.style.display = "none"
+    setupAccount.style.display = "none";
+    shoppingCart.style.display = "none";
+}
+
+function sectionShoppingCart() {
+    shoppingCart.style.display = "block";
+    footer.style.display = "block";
+
+    homeSection.style.display = "none";
+    signInSection.style.display = "none";
+    signUpSection.style.display = "none";
+    userAccount.style.display = "none";
+    setupAccount.style.display = "none";
 }
