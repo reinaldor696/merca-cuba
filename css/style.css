@@ -4425,7 +4425,6 @@ header {
     background: #FFF;
     border: 1px solid #2C742F;
     box-shadow: 0px 0px 12px 0px rgba(32, 181, 38, 0.32);
-    margin: 0 24px;
 }
 
 .img-selected-bag-categories {
@@ -4532,6 +4531,85 @@ header {
     font-style: normal;
     font-weight: 500;
     line-height: 150%;
+}
+
+.margin-product-categories {
+    margin: 0 24px;
+}
+
+.pages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 39.5px 0 100px 150px;
+}
+.pages p {
+    color: #666;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.arrow-left-categories {
+    display: flex;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 500px;
+    background:#F2F2F2;
+    cursor: pointer;
+}
+
+.arrow-left-categories img {
+    width: 20px;
+    height: 20px;
+}
+
+.pages-number {
+    display: flex;
+    padding: 8px;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 130px;
+    background: #00B207;
+    width: 36px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 8px 0 12px;
+}
+.pages-number p {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.pages-number2 {
+    margin-right: 16px;
+}
+
+.pages-number3 {
+    margin-right: 20px;
+}
+
+.arrow-right-categories {
+    display: flex;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 500px;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+    cursor: pointer;
+}
+.arrow-right-categories img {
+    width: 20px;
+    height: 20px;
 }
 /* Categories End */
 
