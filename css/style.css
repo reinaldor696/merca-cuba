@@ -3942,6 +3942,9 @@ header {
 /* Product Description End */
 
 /* Categories */
+.categories {
+    display: none;
+}
 
 .categories-panel-control {
     background-image: url("../media/icons/content-categories/Breadcrumbs.png");
@@ -3953,6 +3956,14 @@ header {
 .content-categories {
     display: flex;
     flex-direction: row;
+}
+
+.content1-categories {
+    margin: 74px 0 0 295px;
+}
+
+.content2-categories {
+    margin: 74px 0 0 24px;
 }
 
 .button-filter-categories {
@@ -3987,6 +3998,7 @@ header {
     justify-content: space-between;
     width: 312px;
     align-items: center;
+    margin: 29px 0 20px 0;
 }
 .special-category h2 {
     color: #1A1A1A;
@@ -4001,10 +4013,15 @@ header {
     height: 6px;
 }
 
+.margin-categories {
+    margin: 20px 0;
+}
+
 .checked-input-categories {
     display: flex;
     flex-direction: row;
     align-items: center;
+    cursor: pointer;
 }
 .checked-input-categories input {
     appearance: none;
@@ -4049,6 +4066,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    cursor: pointer;
 }
 .input-categories input {
     appearance: none;
@@ -4093,6 +4111,7 @@ header {
     width: 309px;
     height: 5px;
     background: #D9D9D9;
+    margin: 58px 0 9px 0;
 }
 
 .subcategory {
@@ -4116,6 +4135,7 @@ header {
     justify-content: space-between;
     width: 312px;
     align-items: center;
+    margin: 30px 0 20px 0;
 }
 .price-categories h2 {
     color: #1A1A1A;
@@ -4149,6 +4169,7 @@ header {
     border: 2px solid #00B207;
     background: #FFF;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .price-range {
@@ -4157,6 +4178,7 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
+    margin: 16px 0 67px 0;
 }
 .price-range span {
     color: #1A1A1A;
@@ -4177,6 +4199,11 @@ header {
 .content-recently-add {
     display: flex;
     flex-direction: row;
+    cursor: pointer;
+}
+
+.margin-recently-add {
+    margin: 16px 0 24px 0;
 }
 
 .calendar-date {
@@ -4291,12 +4318,16 @@ header {
 .product-container-categories img {
     width: 302px;
     height: 302px;
+    cursor: pointer;
 }
 
 .img-product-categories {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 302px;
+    height: 302px;
+    cursor: pointer;
 }
 
 .img1-product-categories {
@@ -4313,6 +4344,7 @@ header {
     padding: 16px;
     gap: 6px;
     justify-content: space-between;
+    cursor: pointer;
 }
 .description-product-categories h3 {
     color: #4D4D4D;
@@ -4387,10 +4419,6 @@ header {
     display: flex;
     justify-content: flex-end;
     padding: 5px 5px 0 5px;
-}
-.img-product-categories {
-    width: 302px;
-    height: 302px;
 }
 
 .description-product-selected-categories h3 {
@@ -4475,6 +4503,7 @@ header {
 .img3-product-categories img {
     width: 301px;
     height: 301px;
+    cursor: pointer;
 }
 
 .description-product-categories2 h3 {

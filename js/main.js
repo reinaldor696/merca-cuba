@@ -9,6 +9,7 @@ const historialOrder = document.querySelector(".historial-order");
 const shoppingCart = document.querySelector(".shopping-cart");
 const aboutUs = document.querySelector(".about-us");
 const ProductDescription = document.querySelector(".product-description");
+const categories = document.querySelector(".categories");
 
 function menuNavHeader() {
     if (menuButton.style.display === "block") {
@@ -33,6 +34,7 @@ function sectionSingIn() {
     shoppingCart.style.display = "none";
     aboutUs.style.display = "none";
     ProductDescription.style.display = "none";
+    categories.style.display = "none";
 
     menuNavHeader();
 }
@@ -47,6 +49,7 @@ function signUp() {
     shoppingCart.style.display = "none";
     aboutUs.style.display = "none";
     ProductDescription.style.display = "none";
+    categories.style.display = "none";
 }
 
 function sectionSingInFromSignUp() {
@@ -60,6 +63,7 @@ function sectionSingInFromSignUp() {
     shoppingCart.style.display = "none";
     aboutUs.style.display = "none";
     ProductDescription.style.display = "none";
+    categories.style.display = "none";
 }
 
 function sectionUserAccount() {
@@ -74,6 +78,7 @@ function sectionUserAccount() {
     shoppingCart.style.display = "none";
     aboutUs.style.display = "none";
     ProductDescription.style.display = "none";
+    categories.style.display = "none";
 }
 
 function sectionUserAccountFromMenu() {
@@ -88,6 +93,7 @@ function sectionUserAccountFromMenu() {
     shoppingCart.style.display = "none";
     aboutUs.style.display = "none";
     ProductDescription.style.display = "none";
+    categories.style.display = "none";
 
     menuNavHeader();
 }
@@ -104,6 +110,7 @@ function sectionSetupAccount() {
     shoppingCart.style.display = "none";
     aboutUs.style.display = "none";
     ProductDescription.style.display = "none";
+    categories.style.display = "none";
 }
 
 function sectionHistorialOrder() {
@@ -118,6 +125,7 @@ function sectionHistorialOrder() {
     shoppingCart.style.display = "none";
     aboutUs.style.display = "none";
     ProductDescription.style.display = "none";
+    categories.style.display = "none";
 }
 
 function sectionShoppingCart() {
@@ -131,7 +139,8 @@ function sectionShoppingCart() {
     setupAccount.style.display = "none";
     aboutUs.style.display = "none";
     ProductDescription.style.display = "none";
-    historialOrder.style.display = "none"
+    historialOrder.style.display = "none";
+    categories.style.display = "none";
 }
 
 function sectionAboutUs() {
@@ -145,7 +154,8 @@ function sectionAboutUs() {
     setupAccount.style.display = "none";
     shoppingCart.style.display = "none";
     ProductDescription.style.display = "none";
-    historialOrder.style.display = "none"
+    historialOrder.style.display = "none";
+    categories.style.display = "none";
 }
 
 function sectionAboutUsFromMenu() {
@@ -159,7 +169,8 @@ function sectionAboutUsFromMenu() {
     setupAccount.style.display = "none";
     shoppingCart.style.display = "none";
     ProductDescription.style.display = "none";
-    historialOrder.style.display = "none"
+    historialOrder.style.display = "none";
+    categories.style.display = "none";
 
     menuNavHeader();
 }
@@ -174,5 +185,20 @@ function sectionProductDescription() {
     userAccount.style.display = "none";
     setupAccount.style.display = "none";
     shoppingCart.style.display = "none";
-    historialOrder.style.display = "none"
+    historialOrder.style.display = "none";
+    categories.style.display = "none";
+}
+
+function sectionCategories() {
+    categories.style.display = "block";
+
+    footer.style.display = "none";
+    homeSection.style.display = "none";
+    signInSection.style.display = "none";
+    signUpSection.style.display = "none";
+    userAccount.style.display = "none";
+    setupAccount.style.display = "none";
+    shoppingCart.style.display = "none";
+    historialOrder.style.display = "none";
+    ProductDescription.style.display = "none";
 }
