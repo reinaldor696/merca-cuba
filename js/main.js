@@ -7,7 +7,8 @@ const setupAccount = document.querySelector(".set-up-account");
 const footer = document.querySelector("footer");
 const historialOrder = document.querySelector(".historial-order");
 const shoppingCart = document.querySelector(".shopping-cart");
-const aboutUs = document.querySelector(".about-us")
+const aboutUs = document.querySelector(".about-us");
+const ProductDescription = document.querySelector(".product-description");
 
 function menuNavHeader() {
     if (menuButton.style.display === "block") {
@@ -31,6 +32,7 @@ function sectionSingIn() {
     historialOrder.style.display = "none";
     shoppingCart.style.display = "none";
     aboutUs.style.display = "none";
+    ProductDescription.style.display = "none";
 
     menuNavHeader();
 }
@@ -44,6 +46,7 @@ function signUp() {
     historialOrder.style.display = "none";
     shoppingCart.style.display = "none";
     aboutUs.style.display = "none";
+    ProductDescription.style.display = "none";
 }
 
 function sectionSingInFromSignUp() {
@@ -56,6 +59,7 @@ function sectionSingInFromSignUp() {
     historialOrder.style.display = "none";
     shoppingCart.style.display = "none";
     aboutUs.style.display = "none";
+    ProductDescription.style.display = "none";
 }
 
 function sectionUserAccount() {
@@ -69,6 +73,7 @@ function sectionUserAccount() {
     historialOrder.style.display = "none";
     shoppingCart.style.display = "none";
     aboutUs.style.display = "none";
+    ProductDescription.style.display = "none";
 }
 
 function sectionUserAccountFromMenu() {
@@ -82,6 +87,7 @@ function sectionUserAccountFromMenu() {
     historialOrder.style.display = "none"
     shoppingCart.style.display = "none";
     aboutUs.style.display = "none";
+    ProductDescription.style.display = "none";
 
     menuNavHeader();
 }
@@ -97,6 +103,7 @@ function sectionSetupAccount() {
     historialOrder.style.display = "none"
     shoppingCart.style.display = "none";
     aboutUs.style.display = "none";
+    ProductDescription.style.display = "none";
 }
 
 function sectionHistorialOrder() {
@@ -110,6 +117,7 @@ function sectionHistorialOrder() {
     setupAccount.style.display = "none";
     shoppingCart.style.display = "none";
     aboutUs.style.display = "none";
+    ProductDescription.style.display = "none";
 }
 
 function sectionShoppingCart() {
@@ -122,6 +130,8 @@ function sectionShoppingCart() {
     userAccount.style.display = "none";
     setupAccount.style.display = "none";
     aboutUs.style.display = "none";
+    ProductDescription.style.display = "none";
+    historialOrder.style.display = "none"
 }
 
 function sectionAboutUs() {
@@ -134,6 +144,8 @@ function sectionAboutUs() {
     userAccount.style.display = "none";
     setupAccount.style.display = "none";
     shoppingCart.style.display = "none";
+    ProductDescription.style.display = "none";
+    historialOrder.style.display = "none"
 }
 
 function sectionAboutUsFromMenu() {
@@ -146,6 +158,21 @@ function sectionAboutUsFromMenu() {
     userAccount.style.display = "none";
     setupAccount.style.display = "none";
     shoppingCart.style.display = "none";
+    ProductDescription.style.display = "none";
+    historialOrder.style.display = "none"
 
     menuNavHeader();
+}
+
+function sectionProductDescription() {
+    ProductDescription.style.display = "block";
+    footer.style.display = "block";
+
+    homeSection.style.display = "none";
+    signInSection.style.display = "none";
+    signUpSection.style.display = "none";
+    userAccount.style.display = "none";
+    setupAccount.style.display = "none";
+    shoppingCart.style.display = "none";
+    historialOrder.style.display = "none"
 }
