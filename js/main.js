@@ -1,3 +1,4 @@
+const onLoad = document.querySelector(".on-load-home");
 const menuButton = document.querySelector(".buttons-menu");
 const signInSection = document.querySelector(".sign-in");
 const signUpSection = document.querySelector(".sign-up");
@@ -11,6 +12,18 @@ const aboutUs = document.querySelector(".about-us");
 const ProductDescription = document.querySelector(".product-description");
 const categories = document.querySelector(".categories");
 const rewardZone = document.querySelector(".reward-zone");
+
+window.onload = function() {
+    onLoad.style.display = "flex";
+
+    document.body.style.overflow = "hidden";
+}
+
+function closeOnLoad() {
+    onLoad.style.display = "none";
+
+    document.body.style.overflow = "auto";
+}
 
 function menuNavHeader() {
     if (menuButton.style.display === "block") {
@@ -229,4 +242,6 @@ function sectionRewardZone() {
     shoppingCart.style.display = "none";
     historialOrder.style.display = "none";
     ProductDescription.style.display = "none";
+    onLoad.style.display = "none";
+    document.body.style.overflow = "auto";
 }
