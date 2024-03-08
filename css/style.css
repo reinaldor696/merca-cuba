@@ -217,6 +217,7 @@ header {
     font-size: 10px;
     color: #ffffff;
     z-index: 2;
+    padding-top: 1px;
 }
 
 .bag-icon {
@@ -4641,6 +4642,237 @@ header {
     height: 20px;
 }
 /* Categories End */
+
+/* Reward Zone */
+.reward-zone-control {
+    background-image: url("../media/icons/content-reward-zone/Breadcrumbs.png");
+    width: 100%;
+    height: 120px;
+    background-repeat: no-repeat;
+}
+
+.content-reward-zone {
+    display: flex;
+    flex-direction: row;
+}
+
+.list-navigation {
+    width: 312px;
+    height: 306px;
+    display: inline-flex;
+    padding-bottom: 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 8px;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+}
+.list-navigation h3 {
+    color: #1A1A1A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    width: 312px;
+    height: 56px;
+    padding: 16px 20px;
+}
+.list-navigation li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 312px;
+    height: 56px;
+    padding: 16px 20px;
+    gap: 10px;
+    cursor: pointer;
+}
+.list-navigation img {
+    width: 24px;
+    height: 24px;
+}
+.list-navigation p {
+    color: #1A1A1A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.list-navigation-selected {
+    background: #EDF2EE;
+    box-shadow: 3px 0px 0px 0px #20B526 inset;
+}
+
+.roulette-container {
+    width: 984px;
+    height: 533px;
+    border-radius: var(--8, 8px);
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+}
+
+.roulette-title {
+    width: 984px;
+    height: 62px;
+    border-radius: 8px 8px 0px 0px;
+    background: #FFF;
+    box-shadow: 0px 1px 0px 0px #E5E5E5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 24px;
+}
+.roulette-title-span1 {
+    margin-left: 18px;
+    color: #F00;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+.roulette-title-span2 {
+    color: #F00;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+.roulette-title img {
+    width: 15px;
+    height: 12.5px;
+    margin-left: 13px;
+    cursor: pointer;
+}
+
+.roulette-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.roulette-content1 {
+    width: 340px;
+    height: 305px;
+    margin: 38px 0 0 62px;
+}
+.roulette-content1 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 13px 0 0 64px;
+    width: 191px;
+    height: 60px;
+    padding: 21px 0px 20px 0px;
+    border-radius: 53px;
+    background: linear-gradient(88deg, #000 -13.37%, rgba(195, 195, 195, 0.76) -3.12%, #F5F5F5 134.22%);
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    border: none;
+    cursor: pointer;
+}
+
+.roulette-content2 li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.star-content {
+    position: relative;
+    width: 44px;
+    height: 42px;
+}
+.star-content p {
+    position: absolute;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+.star-content img {
+    width: 44px;
+    height: 42px;
+}
+
+.padding1-star-content {
+    padding: 10px 19px 5px 18px;
+}
+.padding2-star-content {
+    padding: 10px 16px 5px 17px;
+}
+.padding3-star-content {
+    padding: 11px 16px 4px 17px;
+}
+.padding4-star-content {
+    padding: 11px 16px 4px 15px;
+}
+.padding5-star-content {
+    padding: 11px 16px 4px 16px;
+}
+.padding6-star-content {
+    padding: 10px 16px 5px 16px;
+}
+.padding7-star-content {
+    padding: 11px 17px 4px 17px;
+}
+.padding8-star-content {
+    padding: 10px 15px 5px 17px;
+}
+.padding9-star-content {
+    padding: 11px 15px 4px 17px;
+}
+.padding10-star-content {
+    padding: 10px 12px 5px 13px;
+}
+
+.text-prize {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-left: 16px;
+}
+.text-prize1 {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-left: 17px;
+}
+
+.roulette-content2 {
+    display: flex;
+    flex-direction: row;
+    margin: 75px 0 0 61px;
+}
+
+.star-list {
+    margin-left: 42px;
+}
+
+.margin-star1 {
+    margin: 19px 0;
+}
+
+.margin-star2 {
+    margin: 16px 0 14px 0;
+}
+
+.margin-star3 {
+    margin: 15px 0 16px 0;
+}
+
+.margin-star4 {
+    margin: 19px 0 18px 0;
+}
+/* Reward Zone End */
 
 /* footer */
 footer {
