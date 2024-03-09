@@ -280,3 +280,23 @@ function sectionContact() {
     footer.style.display = "none";
     aboutUs.style.display = "none";
 }
+
+function sectionContactFromMenu() {
+    contact.style.display = "block";
+
+    categories.style.display = "none";
+    homeSection.style.display = "none";
+    signInSection.style.display = "none";
+    signUpSection.style.display = "none";
+    userAccount.style.display = "none";
+    setupAccount.style.display = "none";
+    shoppingCart.style.display = "none";
+    historialOrder.style.display = "none";
+    ProductDescription.style.display = "none";
+    onLoad.style.display = "none";
+    rewardZone.style.display = "none";
+    footer.style.display = "none";
+    aboutUs.style.display = "none";
+
+    menuNavHeader();
+}
