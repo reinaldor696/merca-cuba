@@ -5142,6 +5142,15 @@ header {
 }
 /* Reward Zone End */
 
+/* contact */
+.contact-panel-control {
+    background-image: url("../media/icons/content-contact/Breadcrumbs.png");
+    width: 100%;
+    height: 120px;
+    background-repeat: no-repeat;
+}
+/* contact End */
+
 /* footer */
 footer {
     width: 100%;
