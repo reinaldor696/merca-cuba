@@ -158,7 +158,7 @@
                   <p>Sobre Nosotros</p>
                 </div>
   
-                <div class="contact-nav">
+                <div class="contact-nav" onclick="sectionContact()">
                   <p>Contacto</p>
                 </div>
   
@@ -3255,67 +3255,71 @@
               </div>
 
               <div class="content3-contact">
-                <div>
+                <div class="name-email-container">
                   <div>
                     <p>Su nombre*</p>
 
                     <input type="text">
                   </div>
                   
-                  <div>
+                  <div class="margin-email-contact">
                     <p>Correo electrónico*</p>
 
                     <input type="text">
                   </div>
                 </div>
 
-                <div>
+                <div class="email-number-container">
                   <div>
                     <p>Repita su correo electrónico*</p>
 
                     <input type="text">
                   </div>
                   
-                  <div>
+                  <div class="input-phone-number margin-email-contact">
                     <p>Su número de teléfono*</p>
 
-                    <div>
-                      <img src="" alt="">
+                    <div class="input-cuba-flag">
+                      <div class="images-cuba-flag">
+                        <img src="./media/icons/content-contact/openmoji_flag-cuba.png" alt="cuba-flag" class="img1-input-cuba-flag">
 
-                      <input type="text" placeholder="+53 7 1234567">
+                        <img src="./media/icons/content-user-account/Group.png" alt="arrow-down" class="img2-input-cuba-flag">
+                      </div>
+
+                      <input type="number" placeholder="+53 7 1234567" class="padding-input-phone-number">
                     </div>
                   </div>
                 </div>
 
-                <div>
+                <div class="input-order-number">
                   <p>Número de la orden</p>
 
-                  <input type="text">
+                  <input type="number">
                 </div>
 
-                <div>
+                <div class="input-feedback">
                   <p>Escriba aquí sus comentarios*</p>
 
                   <input type="text">
                 </div>
 
-                <div>
-                  <div>
-                    <div>
+                <div class="recaptcha-send-container">
+                  <div class="recaptcha">
+                    <div class="recaptcha-content1">
                       <input type="checkbox">
 
                       <p>No soy un robot</p>
                     </div>
 
-                    <div>
-                      <img src="" alt="">
+                    <div class="recaptcha-content2">
+                      <img src="./media/icons/content-contact/png-transparent-recaptcha-hd.png" alt="">
 
                       <p>Privacidad - Términos</p>
                     </div>
                   </div>
 
-                  <button type="submit">
-                    <img src="" alt="enviar">
+                  <button type="submit" class="button-send-contact">
+                    <img src="./media/icons/content-contact/fa_send.png" alt="enviar">
 
                     <p>Enviar</p>
                   </button>
@@ -3392,8 +3396,11 @@
 
                   <div class="column2-content2-footer">
                     <h3>Helps</h3>
-                    <p>Contacto</p>
+
+                    <p onclick="sectionContact()">Contacto</p>
+
                     <p class="margin-term-footer">Términos y Condiciones</p>
+                    
                     <p>Política de Privacidad</p>
                   </div>
 
