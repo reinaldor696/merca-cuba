@@ -5620,6 +5620,59 @@ header {
 .svg-padding {
     padding: 0 29px;
 }
+
+.img-list-card {
+    display: flex;
+    flex-direction: row;
+}
+
+.img1-card {
+    width: 90px;
+    height: 56px;
+}
+.img2-card {
+    width: 114px;
+    height: 76px;
+}
+.img3-card {
+    width: 113px;
+    height: 76px;
+}
+.img4-card {
+    width: 114px;
+    height: 76px;
+}
+.img5-card {
+    width: 114px;
+    height: 76px;
+}
+.img6-card {
+    width: 113px;
+    height: 75px;
+}
+
+.content-membership-loyalty {
+    display: flex;
+    flex-direction: row;
+}
+
+.border-membership-loyalty {
+    width: 10px;
+    height: 412px;
+    border-radius: 50px;
+    background: #C5C5C5;
+    display: flex;
+    justify-content: center;
+}
+.border-membership-loyalty li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.x-membership {
+    margin-left: 48px;
+}
 /* Loyalty Program End */
 
 /* footer */
