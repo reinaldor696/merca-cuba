@@ -5831,7 +5831,7 @@ header {
 }
 
 .reward-info-content1 {
-    margin: 8px 10px 0 50px;
+    margin: 8px 5px 0 50px;
 }
 .reward-info-content1 h3 {
     color: #000;
@@ -5854,7 +5854,7 @@ header {
     border: 1px solid #000;
     background: #FFF;
     padding: 6px 0 7px 53px;
-    margin-right: 12px;
+    margin-right: 5px;
 }
 .border-text-order1 p {
     color: #000;
@@ -5871,7 +5871,7 @@ header {
     border: 1px solid #000;
     background: #FFF;
     padding: 6px 0 7px 25px;
-    margin: 17px 12px 14px 0;
+    margin: 17px 5px 14px 0;
 }
 .border-text-order2 p {
     color: #000;
@@ -5888,7 +5888,7 @@ header {
     border: 1px solid #000;
     background: #FFF;
     padding: 6px 0 7px 44px;
-    margin-right: 12px;
+    margin-right: 5px;
 }
 .border-text-order3 p {
     color: #000;
@@ -5896,6 +5896,35 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
+}
+
+.reward-info-content2 {
+    margin-top: 8px;
+}
+.reward-info-content2 h3 {
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+.reward-info-content2 div {
+    width: 342px;
+    height: 40px;
+    border-radius: 5px;
+    background: linear-gradient(269deg, #F7931E -4.48%, #057A10 80.08%);
+}
+.reward-info-content2 p {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.margin-reward-info-content2 {
+    margin: 17px 0 14px 0;
 }
 /* Loyalty Program End */
 
