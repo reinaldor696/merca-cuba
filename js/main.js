@@ -14,6 +14,7 @@ const categories = document.querySelector(".categories");
 const rewardZone = document.querySelector(".reward-zone");
 const contact = document.querySelector(".contact");
 const loyaltyProgram = document.querySelector(".loyalty-program");
+const spinDaily = document.querySelector(".spin-daily")
 
 window.onload = function() {
     onLoad.style.display = "flex";
@@ -54,6 +55,7 @@ function sectionSingIn() {
     rewardZone.style.display = "none";
     contact.style.display = "none";
     loyaltyProgram.style.display = "none";
+    spinDaily.style.display = "none";
 
     menuNavHeader();
 }
@@ -72,6 +74,7 @@ function signUp() {
     rewardZone.style.display = "none";
     contact.style.display = "none";
     loyaltyProgram.style.display = "none";
+    spinDaily.style.display = "none";
 }
 
 function sectionSingInFromSignUp() {
@@ -89,6 +92,7 @@ function sectionSingInFromSignUp() {
     rewardZone.style.display = "none";
     contact.style.display = "none";
     loyaltyProgram.style.display = "none";
+    spinDaily.style.display = "none";
 }
 
 function sectionUserAccount() {
@@ -107,6 +111,7 @@ function sectionUserAccount() {
     rewardZone.style.display = "none";
     contact.style.display = "none";
     loyaltyProgram.style.display = "none";
+    spinDaily.style.display = "none";
 }
 
 function sectionUserAccountFromMenu() {
@@ -125,6 +130,7 @@ function sectionUserAccountFromMenu() {
     rewardZone.style.display = "none";
     contact.style.display = "none";
     loyaltyProgram.style.display = "none";
+    spinDaily.style.display = "none";
 
     menuNavHeader();
 }
@@ -145,6 +151,7 @@ function sectionSetupAccount() {
     rewardZone.style.display = "none";
     contact.style.display = "none";
     loyaltyProgram.style.display = "none";
+    spinDaily.style.display = "none";
 }
 
 function sectionHistorialOrder() {
@@ -163,6 +170,7 @@ function sectionHistorialOrder() {
     rewardZone.style.display = "none";
     contact.style.display = "none";
     loyaltyProgram.style.display = "none";
+    spinDaily.style.display = "none";
 }
 
 function sectionShoppingCart() {
@@ -181,6 +189,7 @@ function sectionShoppingCart() {
     rewardZone.style.display = "none";
     contact.style.display = "none";
     loyaltyProgram.style.display = "none";
+    spinDaily.style.display = "none";
 }
 
 function sectionAboutUs() {
@@ -199,6 +208,7 @@ function sectionAboutUs() {
     rewardZone.style.display = "none";
     contact.style.display = "none";
     loyaltyProgram.style.display = "none";
+    spinDaily.style.display = "none";
 }
 
 function sectionAboutUsFromMenu() {
@@ -217,6 +227,7 @@ function sectionAboutUsFromMenu() {
     rewardZone.style.display = "none";
     contact.style.display = "none";
     loyaltyProgram.style.display = "none";
+    spinDaily.style.display = "none";
 
     menuNavHeader();
 }
@@ -237,6 +248,7 @@ function sectionProductDescription() {
     contact.style.display = "none";
     aboutUs.style.display = "none";
     loyaltyProgram.style.display = "none";
+    spinDaily.style.display = "none";
 }
 
 function sectionCategories() {
@@ -255,6 +267,7 @@ function sectionCategories() {
     contact.style.display = "none";
     aboutUs.style.display = "none";
     loyaltyProgram.style.display = "none";
+    spinDaily.style.display = "none";
 }
 
 function sectionRewardZone() {
@@ -275,6 +288,7 @@ function sectionRewardZone() {
     contact.style.display = "none";
     aboutUs.style.display = "none";
     loyaltyProgram.style.display = "none";
+    spinDaily.style.display = "none";
 }
 
 function sectionContact() {
@@ -294,6 +308,7 @@ function sectionContact() {
     footer.style.display = "none";
     aboutUs.style.display = "none";
     loyaltyProgram.style.display = "none";
+    spinDaily.style.display = "none";
 }
 
 function sectionContactFromMenu() {
@@ -313,6 +328,7 @@ function sectionContactFromMenu() {
     footer.style.display = "none";
     aboutUs.style.display = "none";
     loyaltyProgram.style.display = "none";
+    spinDaily.style.display = "none";
 
     menuNavHeader();
 }
@@ -334,4 +350,26 @@ function sectionLoyaltyProgram() {
     footer.style.display = "none";
     aboutUs.style.display = "none";
     contact.style.display = "none";
+    spinDaily.style.display = "none";
+}
+
+function sectionSpinDailyFromMenu() {
+    spinDaily.style.display = "block";
+    footer.style.display = "block";
+
+    categories.style.display = "none";
+    homeSection.style.display = "none";
+    signInSection.style.display = "none";
+    signUpSection.style.display = "none";
+    userAccount.style.display = "none";
+    setupAccount.style.display = "none";
+    shoppingCart.style.display = "none";
+    historialOrder.style.display = "none";
+    ProductDescription.style.display = "none";
+    onLoad.style.display = "none";
+    rewardZone.style.display = "none";
+    aboutUs.style.display = "none";
+    contact.style.display = "none";
+
+    menuNavHeader();
 }
