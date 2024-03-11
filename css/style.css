@@ -2357,8 +2357,12 @@ header {
     line-height: 120%;
 }
 
-.my-tickets-user-account p {
+.my-tickets-user-account {
     margin: 14px 0 10px 0;
+}
+
+.svg-margin {
+    margin-left: 6px;
 }
 
 .my-multiplier-container {
@@ -6065,6 +6069,151 @@ header {
     margin: 61px 0 74px 0;
 }
 /* Loyalty Program End */
+
+/* Spin Daily */
+.spin-daily {
+    display: none;
+}
+
+.spin-daily-panel-control {
+    background-image: url("../media/icons/content-spin-daily/Breadcrumbs.png");
+    width: 100%;
+    height: 120px;
+    background-repeat: no-repeat;
+}
+
+.content-spin-daily-container {
+    background-image: url("../media/icons/content-loyalty-program/68f06b1eb968250f7d05e086c6dfaddd.gif");
+    width: 100%;
+    height: 646px;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.content1-spin-daily {
+    width: 270px;
+    height: 557px;
+    border-radius: 8px;
+    border: 3px solid rgba(255, 255, 255, 0.70);
+    background: rgba(0, 0, 0, 0.70);
+    padding: 38px 0 43px 28px;
+    margin: 32px 97px 57px 343px;
+}
+.content1-spin-daily div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+}
+.content1-spin-daily p {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+#text1-daily-spin {
+    color: #057A10;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+#text2-daily-spin {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.content2-spin-daily {
+    margin-top: 78px; 
+}
+.content2-spin-daily img {
+    width: 386px;
+    height: 346px;
+}
+.content2-spin-daily button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 191px;
+    height: 60px;
+    padding: 21px 0px 20px 0px;
+    border-radius: 53px;
+    background: #FFF;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    margin: 30px 0 0 93px;
+    border: none;
+    cursor: pointer;
+}
+
+.content3-spin-daily-container h2 {
+    color: #FFF;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    margin: 75px 0 43px 62px;
+}
+
+.content3-spin-daily {
+    display: flex;
+    flex-direction: row;
+    margin-left: 62px;
+}
+.content3-spin-daily li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.star-list-spin-daily {
+    margin-left: 160px;
+}
+
+.text-prize1-spin-daily {
+    margin-left: 17px;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+.text-prize-spin-daily {
+    margin-left: 16px;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.margin-star1-spin-daily {
+    margin: 21px 0;
+}
+.margin-star2-spin-daily {
+    margin: 19px 0 22px 0;
+}
+.margin-star3-spin-daily {
+    margin: 19px 0 18px 0;
+}
+.margin-star4-spin-daily {
+    margin: 22px 0 23px 0;
+}
+/* Spin Daily End */
 
 /* footer */
 footer {
