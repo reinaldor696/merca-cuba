@@ -5409,6 +5409,10 @@ header {
 /* contact End */
 
 /* Loyalty Program */
+.loyalty-program {
+    display: none;
+}
+
 .loyalty-program-panel-control {
     background-image: url("../media/icons/content-loyalty-program/Breadcrumbs.png");
     width: 100%;
@@ -5417,7 +5421,7 @@ header {
 }
 
 .content1-loyalty-program {
-    background-image: url("../media/icons/content-loyalty-program/");
+    background-image: url("../media/icons/content-loyalty-program/68f06b1eb968250f7d05e086c6dfaddd.gif");
     width: 100%;
     height: 1099px;
     background-repeat: no-repeat;
@@ -5555,13 +5559,6 @@ header {
     font-weight: 400;
     line-height: 150%;
 }
-.content2-loyalty-program span {
-    color: #000;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 150%
-}
 
 .content2-loyalty-program-container1 {
     width: 1392px;
@@ -5588,6 +5585,14 @@ header {
 .title-content2-loyalty img {
     width: 124px;
     height: 115.143px;
+}
+
+.text-title1-tickets {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
 }
 
 .text-content-loyalty-program {
@@ -5925,6 +5930,139 @@ header {
 
 .margin-reward-info-content2 {
     margin: 17px 0 14px 0;
+}
+
+.content2-loyalty-program-container3 {
+    width: 1387px;
+    height: 1047px;
+    border-radius: 10px;
+    background: linear-gradient(238deg, #EBEBEB 0.56%, rgba(235, 235, 235, 0.00) 84.85%);
+    border: 4px solid #000;
+    margin-bottom: 144px;
+    padding: 40px 0 0 48px;
+}
+.content2-loyalty-program-container3 h2 {
+    color: #1A1A1A;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.goals-content {
+    display: flex;
+    flex-direction: row;
+}
+.goals-content ul {
+    margin-top: 18px;
+}
+.goals-content li {
+    display: flex;
+    width: 63px;
+    height: 70px;
+    padding: 15px 9px 11px 10px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: -3px;
+}
+.goals-content img {
+    width: 44px;
+    height: 44px;
+}
+.text-content-goals {
+    color: #666;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 33px;
+}
+
+.title1-text-goals {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+.title2-text-goals {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.margin1-goals-content {
+    margin: 38px 0;
+}
+.margin2-goals-content {
+    margin: 38px 0 36px 0;
+}
+.margin3-goals-content {
+    margin-top: 38px;
+}
+.margin4-goals-content {
+    margin: 62px 0 98px 0;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+}
+.margin5-goals-content {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+}
+
+.gift-list {
+    margin-left: 86px;
+    display: flex;
+    flex-direction: row;
+}
+
+.gift-list-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gift-list-container1 p {
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.gift-list-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 14px;
+}
+
+.margin1-gift-text {
+    margin: 59px 0px 88px 0;
+}
+.margin2-gift-text {
+    margin: 85px 0px 83px 0;
+}
+.margin3-gift-text {
+    margin: 84px 0px 86px 0;
+}
+.margin4-gift-text {
+    margin: 103px 0 86px 0;
+}
+
+.svg1 {
+    margin: 20px 0 6px 0;
+}
+.svg2 {
+    margin: 6px 0
+}
+.svg3 {
+    margin: 61px 0 74px 0;
 }
 /* Loyalty Program End */
 

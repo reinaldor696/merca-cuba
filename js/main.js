@@ -13,6 +13,7 @@ const ProductDescription = document.querySelector(".product-description");
 const categories = document.querySelector(".categories");
 const rewardZone = document.querySelector(".reward-zone");
 const contact = document.querySelector(".contact");
+const loyaltyProgram = document.querySelector(".loyalty-program");
 
 window.onload = function() {
     onLoad.style.display = "flex";
@@ -52,6 +53,7 @@ function sectionSingIn() {
     categories.style.display = "none";
     rewardZone.style.display = "none";
     contact.style.display = "none";
+    loyaltyProgram.style.display = "none";
 
     menuNavHeader();
 }
@@ -69,6 +71,7 @@ function signUp() {
     categories.style.display = "none";
     rewardZone.style.display = "none";
     contact.style.display = "none";
+    loyaltyProgram.style.display = "none";
 }
 
 function sectionSingInFromSignUp() {
@@ -85,6 +88,7 @@ function sectionSingInFromSignUp() {
     categories.style.display = "none";
     rewardZone.style.display = "none";
     contact.style.display = "none";
+    loyaltyProgram.style.display = "none";
 }
 
 function sectionUserAccount() {
@@ -102,6 +106,7 @@ function sectionUserAccount() {
     categories.style.display = "none";
     rewardZone.style.display = "none";
     contact.style.display = "none";
+    loyaltyProgram.style.display = "none";
 }
 
 function sectionUserAccountFromMenu() {
@@ -119,6 +124,7 @@ function sectionUserAccountFromMenu() {
     categories.style.display = "none";
     rewardZone.style.display = "none";
     contact.style.display = "none";
+    loyaltyProgram.style.display = "none";
 
     menuNavHeader();
 }
@@ -138,6 +144,7 @@ function sectionSetupAccount() {
     categories.style.display = "none";
     rewardZone.style.display = "none";
     contact.style.display = "none";
+    loyaltyProgram.style.display = "none";
 }
 
 function sectionHistorialOrder() {
@@ -155,6 +162,7 @@ function sectionHistorialOrder() {
     categories.style.display = "none";
     rewardZone.style.display = "none";
     contact.style.display = "none";
+    loyaltyProgram.style.display = "none";
 }
 
 function sectionShoppingCart() {
@@ -172,6 +180,7 @@ function sectionShoppingCart() {
     categories.style.display = "none";
     rewardZone.style.display = "none";
     contact.style.display = "none";
+    loyaltyProgram.style.display = "none";
 }
 
 function sectionAboutUs() {
@@ -189,6 +198,7 @@ function sectionAboutUs() {
     categories.style.display = "none";
     rewardZone.style.display = "none";
     contact.style.display = "none";
+    loyaltyProgram.style.display = "none";
 }
 
 function sectionAboutUsFromMenu() {
@@ -206,6 +216,7 @@ function sectionAboutUsFromMenu() {
     categories.style.display = "none";
     rewardZone.style.display = "none";
     contact.style.display = "none";
+    loyaltyProgram.style.display = "none";
 
     menuNavHeader();
 }
@@ -225,6 +236,7 @@ function sectionProductDescription() {
     rewardZone.style.display = "none";
     contact.style.display = "none";
     aboutUs.style.display = "none";
+    loyaltyProgram.style.display = "none";
 }
 
 function sectionCategories() {
@@ -242,6 +254,7 @@ function sectionCategories() {
     rewardZone.style.display = "none";
     contact.style.display = "none";
     aboutUs.style.display = "none";
+    loyaltyProgram.style.display = "none";
 }
 
 function sectionRewardZone() {
@@ -261,6 +274,7 @@ function sectionRewardZone() {
     document.body.style.overflow = "auto";
     contact.style.display = "none";
     aboutUs.style.display = "none";
+    loyaltyProgram.style.display = "none";
 }
 
 function sectionContact() {
@@ -279,6 +293,7 @@ function sectionContact() {
     rewardZone.style.display = "none";
     footer.style.display = "none";
     aboutUs.style.display = "none";
+    loyaltyProgram.style.display = "none";
 }
 
 function sectionContactFromMenu() {
@@ -297,6 +312,26 @@ function sectionContactFromMenu() {
     rewardZone.style.display = "none";
     footer.style.display = "none";
     aboutUs.style.display = "none";
+    loyaltyProgram.style.display = "none";
 
     menuNavHeader();
+}
+
+function sectionLoyaltyProgram() {
+    loyaltyProgram.style.display = "block";
+
+    categories.style.display = "none";
+    homeSection.style.display = "none";
+    signInSection.style.display = "none";
+    signUpSection.style.display = "none";
+    userAccount.style.display = "none";
+    setupAccount.style.display = "none";
+    shoppingCart.style.display = "none";
+    historialOrder.style.display = "none";
+    ProductDescription.style.display = "none";
+    onLoad.style.display = "none";
+    rewardZone.style.display = "none";
+    footer.style.display = "none";
+    aboutUs.style.display = "none";
+    contact.style.display = "none";
 }
