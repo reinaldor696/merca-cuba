@@ -6215,6 +6215,368 @@ header {
 }
 /* Spin Daily End */
 
+/* Management Product */
+.management-product-panel-control {
+    background-image: url("../media/icons/content-management-product/Breadcrumbs.png");
+    width: 100%;
+    height: 120px;
+    background-repeat: no-repeat;
+}
+
+.content-management-product-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.content1-management-product {
+    width: 270px;
+    height: 418px;
+    border-radius: 8px;
+    border: 1px solid #E6E6E6;
+    background: #FAF9F9;
+    box-shadow: 2px 2px 4.5px 0px rgba(129, 129, 129, 0.10);
+}
+.content1-management-product ul {
+    margin: 23px 0 0 20px;
+}
+.content1-management-product li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+.content1-management-product p {
+    color: #4D4D4D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+#text-color-management-product {
+    color: #057A10;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.margin1-management {
+    margin: 19px 0 16px 0;
+}
+.margin2-management {
+    margin: 16px 0;
+}
+.margin3-management {
+    margin: 16px 0;
+}
+.margin4-management {
+    margin-top: 55px;
+}
+
+.content2-management-product {
+    width: 750px;
+    height: 710px;
+    border-radius: 8px;
+    border: 1px solid #E6E6E6;
+    background: #F1F1F1;
+    padding: 5px 0px 0 25px;
+}
+
+.product-name-management h3 {
+    color: #4D4D4D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.product-name-management div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 25px;
+}
+.product-name-management input {
+    width: 700px;
+    height: 46px;
+    border-radius: 6px;
+    border: 1px solid #E2E2E2;
+    background: #FFF;
+    margin: 10px 0 20px 0;
+    padding: 0 25px 0 11px;
+}
+.product-name-management input::placeholder {
+    color: #999;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.product-name-management svg {
+    position: absolute;
+    margin-right: 13px;
+    cursor: pointer;
+}
+
+.type-product-management {
+    display: flex;
+    flex-direction: row;
+}
+.input1-type-product-management h3 {
+    color: #4D4D4D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.input1-type-product-management input {
+    width: 320px;
+    height: 46px;
+    border-radius: 6px;
+    border: 1px solid #E2E2E2;
+    background: #FFF;
+    padding: 11px;
+}
+.input1-type-product-management input::placeholder {
+    color: #999;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.input2-type-product-management {
+    margin-left: 59px;
+}
+.input2-type-product-management h3 {
+    color: #4D4D4D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 11px;
+}
+.input2-type-product-management input {
+    width: 320px;
+    height: 46px;
+    border-radius: 6px;
+    border: 1px solid #E2E2E2;
+    background: #FFF;
+    padding: 10px 11px 12px 11px;
+}
+.input2-type-product-management input::placeholder {
+    color: #999;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.price-product-management {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+}
+
+.input1-price-product-management h3 {
+    color: #4D4D4D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.input1-price-product-management input {
+    width: 320px;
+    height: 46px;
+    border-radius: 6px;
+    border: 1px solid #E2E2E2;
+    background: #FFF;
+    padding: 11px;
+}
+.input1-price-product-management input::placeholder {
+    color: #999;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.input2-price-product-management {
+    margin: 0 43px 0 61px;
+}
+.input2-price-product-management h3 {
+    color: #4D4D4D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.input2-price-product-management div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.input2-price-product-management input {
+    width: 137px;
+    height: 46px;
+    border-radius: 6px;
+    border: 1px solid #E2E2E2;
+    background: #FFF;
+    padding: 11px 25px 11px 11px;
+}
+.input2-price-product-management input::placeholder {
+    color: #999;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.input2-price-product-management svg {
+    position: absolute;
+    margin-right: 13px;
+}
+
+.input3-price-product-management h3 {
+    color: #4D4D4D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.input3-price-product-management div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.input3-price-product-management input {
+    width: 137px;
+    height: 46px;
+    border-radius: 6px;
+    border: 1px solid #E2E2E2;
+    background: #FFF;
+    padding: 11px 25px 11px 11px;
+}
+.input3-price-product-management input::placeholder {
+    color: #999;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.input3-price-product-management svg {
+    position: absolute;
+    margin-right: 13px;
+}
+
+.description-product-management {
+    margin: 16px 0 33px 0;
+}
+.description-product-management h3 {
+    color: #4D4D4D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.description-product-management input {
+    width: 700px;
+    height: 77px;
+    border-radius: 6px;
+    border: 1px solid #E2E2E2;
+    background: #FFF;
+    padding: 10px 11px;
+}
+.description-product-management input::placeholder {
+    color: #999;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: left;
+
+}
+
+.upload-your-product h3 {
+    color: #4D4D4D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.content-upload-your-product {
+    width: 700px;
+    height: 207px;
+    border-radius: 8px;
+    border: 1px dashed #45A9EA;
+    background: #EEF8FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-upload-your-product svg {
+    margin: 35px 0 15px 0;
+}
+.content-upload-your-product p {
+    color: #4D4D4D;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.content-upload-your-product button {
+    cursor: pointer;
+    border: none;
+    display: inline-flex;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: #45A9EA;
+    color: #FFF;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+/* Management Product End */
+
 /* footer */
 footer {
     width: 100%;
