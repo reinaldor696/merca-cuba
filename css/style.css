@@ -6216,6 +6216,10 @@ header {
 /* Spin Daily End */
 
 /* Management Product */
+.management-product {
+    display: none;
+}
+
 .management-product-panel-control {
     background-image: url("../media/icons/content-management-product/Breadcrumbs.png");
     width: 100%;
@@ -6226,6 +6230,7 @@ header {
 .content-management-product-container {
     display: flex;
     flex-direction: row;
+    padding: 44px 98px 0 300px;
 }
 
 .content1-management-product {
@@ -6283,6 +6288,7 @@ header {
     border: 1px solid #E6E6E6;
     background: #F1F1F1;
     padding: 5px 0px 0 25px;
+    margin: 0 34px 0 42px;
 }
 
 .product-name-management h3 {
@@ -6574,6 +6580,54 @@ header {
     line-height: normal;
     text-transform: capitalize;
     margin-top: 10px;
+}
+
+.content3-management-product {
+    width: 224px;
+    height: 710px;
+    border-radius: 8px;
+    border: 1px solid #E6E6E6;
+    background: #F1F1F1;
+    padding: 24px 12px 0 11px;
+}
+.content3-management-product h3 {
+    color: #4D4D4D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.images-management-product {
+    width: 201px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid #E2E2E2;
+    background: #FFF;
+    padding: 8px 25px 8px 11px;
+}
+.images-management-product img {
+    width: 66px;
+    height: 54px;
+}
+.images-management-product p {
+    display: -webkit-box;
+    width: 57px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    color: #4D4D4D;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0 20px 0 6px;
 }
 /* Management Product End */
 
