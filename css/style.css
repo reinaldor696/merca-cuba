@@ -6632,6 +6632,10 @@ header {
 /* Management Product End */
 
 /* Management Dashboard */
+.management-dashboard {
+    display: none;
+}
+
 .management-dashboard-panel-control {
     background-image: url("../media/icons/content-management-product/Breadcrumbs.png");
     width: 100%;
@@ -6642,6 +6646,7 @@ header {
 .content-management-dashboard-container {
     display: flex;
     flex-direction: row;
+    margin: 44px 0 41px 300px;
 }
 
 .content1-management-dashboard {
@@ -6668,6 +6673,10 @@ header {
     font-weight: 400;
     line-height: normal;
     letter-spacing: 1px;
+}
+
+.margin-content2-management {
+    margin-left: 66px;
 }
 
 .content2-management-dashboard {
@@ -7000,6 +7009,39 @@ header {
     width: 706px;
 }
 
+.chart-info2 h3 {
+    color: #1C1C1C;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.traffic-order p {
+    color: #1C1C1C;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    width: 63px;
+}
+.traffic-order li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.traffic-order img {
+    width: 80px;
+    height: 34.33px;
+    margin-left: 16px;
+}
+
+.margin1-traffic-order {
+    margin: 8px 0;
+}
+.margin2-traffic-order {
+    margin-top: 8px;
+}
 /* Management Dashboard End */
 
 /* footer */
