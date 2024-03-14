@@ -1055,11 +1055,19 @@ header {
     margin-top: 24px;
     background: #FFFFFF;
 }
+.content3-container1 span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 .free-shipping-container {
     display: flex;
     align-items: center;
     flex-direction: row;
+}
+.free-shipping-container-mquery {
+    display: none;
 }
 
 .text-content3-container1 {
@@ -1086,11 +1094,17 @@ header {
     flex-direction: row;
     margin: 0px 5.33px 0 5.33px;
 }
+.customer-support-container-mquery {
+    display: none;
+}
 
 .shopping-bag-container {
     display: flex;
     align-items: center;
     flex-direction: row;
+}
+.shopping-bag-container-mquery {
+    display: none;
 }
 
 .garantie-container {
@@ -1098,6 +1112,9 @@ header {
     align-items: center;
     flex-direction: row;
     margin-left: 5.33px;
+}
+.garantie-container-mquery {
+    display: none;
 }
 
 .images-content3-container1 img {
