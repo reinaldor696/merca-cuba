@@ -303,6 +303,10 @@ header {
     cursor: pointer;
 }
 
+.menu-search-mquery {
+    display: none;
+}
+
 .item-number {
     display: flex;
     justify-content: flex-end;
@@ -792,6 +796,9 @@ header {
     font-weight: 600;
     line-height: 60px;
 }
+.title1-content1-container1 svg {
+    display: none;
+}
 
 .title2-content1-container1 {
     border-left: 2px solid #84D187;
@@ -799,12 +806,16 @@ header {
     margin: 35px 0 51px 0
 }
 .title2-content1-container1 p {
+    display: block;
     color: #FFF;
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
     line-height: 35px;
     margin-left: 15px;
+}
+.title2-content1-container1 svg {
+    display: none;
 }
 
 .button-content1-container1 button {
@@ -868,6 +879,7 @@ header {
     margin-left: 23px;
 }
 
+
 .content2 {
     width: 424px;
     height: 286px;
@@ -884,6 +896,10 @@ header {
     flex-direction: column;
     justify-content: flex-start;
     padding-left: 20px;
+}
+
+.content2-container-mquery {
+    display: none;
 }
 
 .text1-content2 {
@@ -917,6 +933,10 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
+}
+
+.text1-2-content3-mquery {
+    display: none;
 }
 
 .button-content2-container1 {
@@ -1008,6 +1028,10 @@ header {
     width: 15px;
     height: 12.05px;
     margin-left: 10px;
+}
+
+.button-content3-container1-mquery {
+    display: none;
 }
 
 .img2-content3-container1 {

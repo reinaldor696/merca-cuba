@@ -17,9 +17,9 @@ const loyaltyProgram = document.querySelector(".loyalty-program");
 const spinDaily = document.querySelector(".spin-daily")
 
 window.onload = function() {
-    onLoad.style.display = "flex";
+        onLoad.style.display = "flex";
 
-    document.body.style.overflow = "hidden";
+        document.body.style.overflow = "hidden";
 }
 
 function closeOnLoad() {
