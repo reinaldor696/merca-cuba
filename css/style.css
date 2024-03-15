@@ -1164,6 +1164,9 @@ header {
     flex-direction: row;
     align-items: center;
 }
+.buttons-content1-container2-mquery {
+    display: none;
+}
 
 .button-top-product-jumex {
     display: flex;
