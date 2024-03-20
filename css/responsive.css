@@ -60,6 +60,7 @@
 }
 /* Header End*/
 
+/* Home */
 
 /* Container1 */
 .container1-container1 {
@@ -279,14 +280,34 @@
     margin: 0 7.66px 0 7.66px;
 }
 
-.border-content2-container2 {
-    scale: 0.53;
+.content3-container2 {
+    width: 397px;
+    height: 167px;
+    margin: 60px 0 50px 0;
 }
 
-.content2-container2 {
-    scale: 0.53;
+.img-bottle-content3-container2 {
+    padding: 0;
+}
+.img-bottle-content3-container2 img {
+    width: 203px;
+    height: 109px;
+}
+
+.img-bottle-mquery {
+    display: block;
+}
+
+.oil-product-content3-container2 h4, .discount-text, .discount-text2, .button-discount-content3-container2, .img-bottle {
+    display: none;
 }
 /* Container2 End */
+
+/* Home End */
+
+/* About Us */
+
+/* About Us End */
 }
 
 /*Media queries para trabajar Tablets como las Surfaces*/

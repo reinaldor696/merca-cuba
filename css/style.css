@@ -1592,6 +1592,9 @@ header {
     width: 791px;
     height: 464px;
 }
+.img-bottle-mquery {
+    display: none;
+}
 
 .oil-product-content3-container2 {
     margin-left: 48px;
