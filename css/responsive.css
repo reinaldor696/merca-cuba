@@ -327,6 +327,37 @@
     width: 11.199px;
     height: 10.399px;
 }
+
+.title-content4-container2 {
+    margin-bottom: 23px;
+}
+.title-content4-container2 h2 {
+    margin: 0 52px 0 0;
+    color: #002603;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.ver-button-content4-container2 {
+    margin: 0 0 0 52px;
+    gap: 7px;
+}
+.ver-button-content4-container2 p {
+    color: #000;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+.ver-button-content4-container2 img {
+    display: none;
+}
+
+.ver-button-content4-container2 svg {
+    display: block;
+}
 /* Container2 End */
 
 /* Home End */

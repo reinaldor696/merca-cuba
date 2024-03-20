@@ -1746,10 +1746,13 @@ header {
     margin-left: 12px;
 }
 
+.ver-button-content4-container2 svg {
+    display: none;
+}
+
 .our-product-content4-container2 {
     margin-bottom: 210px;
 }
-
 /* container2 End */
 
 
