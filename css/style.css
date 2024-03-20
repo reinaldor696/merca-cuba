@@ -1649,6 +1649,10 @@ header {
     align-items: center;
 }
 
+.oil-product-content3-container2-mquery {
+    display: none;
+}
+
 .button-content3-container3 {
     display: flex;
     align-items: center;
