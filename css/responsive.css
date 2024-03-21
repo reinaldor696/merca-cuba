@@ -365,6 +365,15 @@
     display: none;
 }
 
+.content-container3 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: max-content;
+    margin: 0 0 73px 30px;
+}
+
 .daily-deal1-container3 {
     width: 163px;
     height: 205px;
@@ -379,9 +388,16 @@
     display: block;
 }
 
+.daily-deal1-text1-mquery {
+    margin: 0 0 15px 24px;
+}
+
+.daily-deal1-text2-mquery {
+    margin: 0 0 -5px 45px;
+}
+
 .deal-button-container {
     margin: 13px 11px 9px 0;
-    gap: 19px;
 }
 .deal-button-container p {
     display: none;
@@ -390,12 +406,20 @@
     display: block;
 }
 
+.margin1-button-bag-product {
+    margin-left: 19px;
+}
+.margin2-button-bag-product {
+    margin-left: 16px;
+}
+.margin3-button-bag-product {
+    margin-left: 85px;
+}
+
 .button-bag-product-container2 {
     width: 15px;
     height: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 4px 5px 5px 4px;
 }
 .button-bag-product-container2 img {
     display: none;
@@ -404,7 +428,49 @@
 .img1-daily-deal1-container3 {
     width: 159px;
     height: 103px;
-    margin: 0;
+}
+
+.daily-deal2-container3 {
+    width: 161px;
+    height: 205px;
+    margin: 0 8px;
+    background-size: 70px 201px;
+}
+
+.daily-deal2-container3 h3 {
+    display: none;
+}
+.daily-deal2-container3 h2 {
+    display: none;
+}
+
+.daily-deal2-text1-mquery {
+    margin: 0 0 0 9px;
+}
+
+.daily-deal2-text2-mquery {
+    margin: 0 0 0 39px;
+}
+
+.daily-deal3-container1 {
+    width: 163px;
+    height: 206px;
+}
+
+.daily-deal3-container1 h3 {
+    display: none;
+}
+
+.daily-deal3-container1 h2 {
+    display: none;
+}
+
+.daily-deal3-text1-mquery {
+    margin: 0 0 0 13px;
+}
+
+.daily-deal3-text2-mquery {
+    margin-left: 41px;
 }
 /* Container3 End */
 
