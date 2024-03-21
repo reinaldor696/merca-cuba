@@ -1815,6 +1815,9 @@ header {
     line-height: 150%;
     margin-bottom: -20px;
 }
+.daily-deal1-container3 svg {
+    display: none;
+}
 
 .daily-deal-price{
     color: #000;
@@ -1939,6 +1942,9 @@ header {
     margin-top: 42px;
     margin-bottom: 23px;
     margin-right: 26px;
+}
+.deal-button-container svg {
+    display: none;
 }
 /* container3 End */
 

@@ -360,6 +360,54 @@
 }
 /* Container2 End */
 
+/* Container3 */
+.title-container3  {
+    display: none;
+}
+
+.daily-deal1-container3 {
+    width: 163px;
+    height: 205px;
+}
+.daily-deal1-container3 h3 {
+    display: none;
+}
+.daily-deal1-container3 h2 {
+    display: none;
+}
+.daily-deal1-container3 svg {
+    display: block;
+}
+
+.deal-button-container {
+    margin: 13px 11px 9px 0;
+    gap: 19px;
+}
+.deal-button-container p {
+    display: none;
+}
+.deal-button-container svg {
+    display: block;
+}
+
+.button-bag-product-container2 {
+    width: 15px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-bag-product-container2 img {
+    display: none;
+}
+
+.img1-daily-deal1-container3 {
+    width: 159px;
+    height: 103px;
+    margin: 0;
+}
+/* Container3 End */
+
 /* Home End */
 
 /* About Us */
