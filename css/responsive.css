@@ -446,10 +446,12 @@
 
 .daily-deal2-text1-mquery {
     margin: 0 0 0 9px;
+    display: block;
 }
 
 .daily-deal2-text2-mquery {
-    margin: 0 0 0 39px;
+    margin: 11px 0 0 39px;
+    display: block;
 }
 
 .daily-deal3-container1 {
@@ -467,14 +469,26 @@
 
 .daily-deal3-text1-mquery {
     margin: 0 0 0 13px;
+    display: block;
 }
 
 .daily-deal3-text2-mquery {
-    margin-left: 41px;
+    margin: 13px 0 0 41px;
+    display: block;
 }
 /* Container3 End */
 
+/* Container4 */
+
+/* Container4 End */
+
 /* Home End */
+
+/* Footer */
+footer {
+    display: none;
+}
+/* Footer End */
 
 /* About Us */
 

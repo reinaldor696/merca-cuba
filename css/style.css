@@ -1883,6 +1883,12 @@ header {
     line-height: 150%;
 }
 
+.daily-deal2-text1-mquery {
+    display: none;
+}
+.daily-deal2-text2-mquery {
+    display: none;
+}
 
 .daily-deal3-container1 {
     width: 424px;
@@ -1916,6 +1922,14 @@ header {
     font-style: normal;
     font-weight: 600;
     line-height: 120%;
+}
+
+.daily-deal3-text1-mquery {
+    display: none;
+}
+
+.daily-deal3-text2-mquery {
+    display: none;
 }
 
 .daily-deal3-container1 h2 {
