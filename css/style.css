@@ -3623,15 +3623,16 @@ header {
 
 .password-pop-up-container {
     display: none;
-    width: 2007px;
-    height: 2665px;
+    width: 100vw;
     background: rgba(0, 0, 0, 0.77);
     position: fixed;
     z-index: 100;
     top: 0;
     left: 0;
-    right: 0px;
+    right: 0;
     bottom: 0;
+    align-items: center;
+    justify-content: center;
 }
 .password-pop-up {
     width: 984px;

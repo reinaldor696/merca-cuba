@@ -5,6 +5,7 @@ const signUpSection = document.querySelector(".sign-up");
 const homeSection = document.querySelector(".home");
 const userAccount = document.querySelector(".user-account");
 const setupAccount = document.querySelector(".set-up-account");
+const passwordPopUp = document.querySelector(".password-pop-up-container");
 const footer = document.querySelector("footer");
 const historialOrder = document.querySelector(".historial-order");
 const shoppingCart = document.querySelector(".shopping-cart");
@@ -152,6 +153,17 @@ function sectionSetupAccount() {
     contact.style.display = "none";
     loyaltyProgram.style.display = "none";
     spinDaily.style.display = "none";
+}
+
+function sectionPasswordPopUp() {
+    passwordPopUp.style.display = "flex";
+
+    document.body.style.overflow = "hidden";
+}
+function sectionPasswordChangedPopUp() {
+    passwordPopUp.style.display = "none";
+
+    document.body.style.overflow = "auto";
 }
 
 function sectionHistorialOrder() {
