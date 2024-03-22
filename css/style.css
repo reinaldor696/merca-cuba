@@ -3236,7 +3236,7 @@ header {
 }
 
 .postal-code-container {
-    margin-left: 59px;
+    margin: 0 22px 0 23px;
 }
 
 .edit-shipping-direction {
@@ -3375,6 +3375,8 @@ header {
     border-radius: 6px;
     border: 1px solid #E6E6E6;
     background: #FFF;
+    width: 297px;
+    height: 49px;
 }
 .edit-shipping-direction-country input::placeholder {
     color: #666;
