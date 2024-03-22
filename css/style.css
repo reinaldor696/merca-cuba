@@ -2393,7 +2393,7 @@ header {
 
 /* Section User Account */
 .user-account {
-    display: block;
+    display: none;
 }
 
 .account-panel-contol {
@@ -2914,6 +2914,148 @@ header {
     width: 198px;
     height: 250px;
     border-radius: 0px 12px 12px 0px;
+}
+
+.content3-user-account {
+    width: 1000px;
+    height: 292px;
+    border-radius: 8px;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+    margin: 72px 0 141px 0;
+}
+
+.historial-order-user-account {
+    margin: 28px 26px 15px 44px;
+}
+.historial-order-user-account h3 {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin-top: 12px;
+}
+
+.last-shopping {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.last-shopping h2 {
+    color: #808080;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+.last-shopping button {
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    font-family: "Poppins", sans-serif;
+    color: #057A10;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.title-historial-order-user-account {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1000px;
+    height: 53px;
+    border: 1px solid #E6E6E6;
+    background: #F2F2F2;
+    padding-left: 43px;
+}
+.title-historial-order-user-account li {
+    color: #808080;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 21px */
+}
+
+.margin1-historial-order-user-account {
+    margin: 0 156px 0 121px;
+}
+.margin2-historial-order-user-account {
+    margin-left: 191px;
+}
+
+.content1-historial-order-user-account {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #808080;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin: 31px 0 0 42px;
+}
+.content1-historial-order-user-account span {
+    color: #808080;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+.content1-historial-order-user-account button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    color: #057A10;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.content2-historial-order-user-account {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #808080;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin: 31px 0 0 42px;
+}
+.content2-historial-order-user-account button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    color: #057A10;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.margin3-historial-order-user-account {
+    width: 92px;
+    margin: 0 110px 0 179px;
+}
+.margin4-historial-order-user-account {
+    margin: 0 109px 0 100px;
+}
+.margin5-historial-order-user-account {
+    margin: 0 110px 0 179px;
+}
+.margin6-historial-order-user-account {
+    margin: 0 109px 0 100px;
+}
+
+.price-historial-order-user-account {
+    width: 134px;
 }
 /* Section User Account End */
 
