@@ -3078,7 +3078,7 @@ header {
 }
 
 .content-edit-setup {
-    margin-left: 25px;
+    margin:0 0 155px 25px;
 }
 
 .content2-user-account {
@@ -3245,7 +3245,7 @@ header {
     border-radius: 8px;
     border: 1px solid #E6E6E6;
     background: #FFF;
-    margin: 26px 0;
+    margin: 26px 0 24px 0;
 }
 .edit-shipping-direction h2 {
     color: #1A1A1A;
@@ -3544,6 +3544,82 @@ header {
 
 .confirm-password-container {
     margin-left: 16px;
+}
+
+.my-cards-set-up-account {
+    width: 984px;
+    height: 293px;
+    border-radius: 8px;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+}
+.my-cards-set-up-account h2 {
+    display: flex;
+    width: 984px;
+    padding: 16px 843px 16px 24px;
+    align-items: center;
+    border-radius: 8px 8px 0px 0px;
+    background: #FFF;
+    box-shadow: 0px 1px 0px 0px #E5E5E5;
+    color: var(--Gray-Scale-Gray-900, #1A1A1A);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.my-cards-info-set-up-account {
+    width: 917px;
+    height: 90px;
+    border-radius: 5px;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+    margin: 42px 0 0 32px;
+    padding: 14px 0 0 14px;
+}
+.my-cards-info-set-up-account {
+    display: flex;
+    flex-direction: row;
+}
+.my-cards-info-set-up-account h3 {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
+}
+.my-cards-info-set-up-account p {
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.card-added-set-up-account {
+    margin-left: 17px;
+}
+
+.card-number-set-up-account {
+    margin: 8px 0 1px 0;
+}
+
+.add-new-payment-set-up-account {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    margin: 35px 0 0 32px;
+}
+.add-new-payment-set-up-account h4 {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0 16px 0 12px;
 }
 /* Section Set Up Account End */
 
