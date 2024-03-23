@@ -6852,7 +6852,7 @@ header {
 
 /* Spin Daily */
 .spin-daily {
-    display: none;
+    display: block;
 }
 
 .spin-daily-panel-control {
@@ -6863,7 +6863,7 @@ header {
 }
 
 .content-spin-daily-container {
-    background-image: url("../media/icons/content-loyalty-program/68f06b1eb968250f7d05e086c6dfaddd.gif");
+    background-image: url("../media/icons/content-loyalty-program/68f06b1eb968250f7d05e086c6dfaddd.gi");
     width: 100%;
     height: 646px;
     background-repeat: no-repeat;
@@ -6914,7 +6914,7 @@ header {
 }
 
 .content2-spin-daily {
-    margin-top: 78px; 
+    margin: 78px 0 0 348px; 
 }
 .content2-spin-daily img {
     width: 386px;
