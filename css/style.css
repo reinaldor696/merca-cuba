@@ -5692,7 +5692,84 @@ header {
     margin: 19px 0 18px 0;
 }
 
+.cards-tickets-reward-zone {
+    display: flex;
+    flex-direction: row;
+    margin: 41px 0 38px 0;
+}
 
+.your-card-reward-zone {
+    width: 472px;
+    height: 202px;
+    border-radius: 8px;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+    margin-right: 20px;
+    padding: 34px 25px 37px;
+}
+.your-card-reward-zone h3 {
+    color: #1A1A1A;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    margin: 22px 0 -6px 0;
+}
+.your-card-reward-zone h4 {
+    color: #1A1A1A;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+}
+
+.h4-span1 {
+    color: #057A10;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+}
+.h4-span2 {
+    color: #1A1A1A;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.text1-your-card-reward {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+.text1-your-card-reward span {
+    color: #1A1A1A;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+.text1-your-card-reward h2 {
+    color: #1A1A1A;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+.text1-your-card-reward img {
+    width: 62.4px;
+    height: 39px;
+}
+
+.my-tickets-reward-zone {
+    width: 472px;
+    height: 202px;
+    border-radius: 8px;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+    margin-left: 20px;
+}
 /* Reward Zone End */
 
 /* contact */
