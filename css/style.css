@@ -6852,7 +6852,7 @@ header {
 
 /* Spin Daily */
 .spin-daily {
-    display: block;
+    display: none;
 }
 
 .spin-daily-panel-control {
@@ -6863,7 +6863,7 @@ header {
 }
 
 .content-spin-daily-container {
-    background-image: url("../media/icons/content-loyalty-program/68f06b1eb968250f7d05e086c6dfaddd.gi");
+    background-image: url("../media/icons/content-loyalty-program/68f06b1eb968250f7d05e086c6dfaddd.gif");
     width: 100%;
     height: 646px;
     background-repeat: no-repeat;
