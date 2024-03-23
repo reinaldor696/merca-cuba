@@ -3689,7 +3689,7 @@ header {
 
 /* Section Historial Order */
 .historial-order {
-    display: none;
+    display: block;
 }
 
 .historial-panel-control {
@@ -3702,16 +3702,16 @@ header {
 .content-historial-order {
     display: flex;
     flex-direction: row;
-    margin: 32px 0 263px 341px;
+    margin: 32px 0 223px 301px;
 }
 
 .historial-shopping-container {
     width: 984px;
-    height: 404px;
+    height: 471px;
     border-radius:8px;
     border: 1px solid #E6E6E6;
     background: #FFF;
-    margin-left: 25px;
+    margin-left: -14px;
 }
 
 .historial-shopping {
@@ -3738,6 +3738,39 @@ header {
     cursor: pointer;
     background: transparent;
     margin-right: 18px;
+}
+
+.filter-order {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 33px;
+    margin: 4px 0 29px 24px;
+}
+.filter-order h3 {
+    color: #1A1A1A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.filter-order div {
+    width: 212px;
+    height: 37px;
+    border-radius: 3px;
+    border: 1px solid #ACACAC;
+    padding: 8px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.filter-order h4 {
+    color: #1A1A1A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
 }
 
 .title-order {
