@@ -5475,7 +5475,7 @@ header {
 
 /* Reward Zone */
 .reward-zone {
-    display: block;
+    display: none;
 }
 
 .reward-zone-control {
@@ -5818,6 +5818,113 @@ header {
 .text3-my-tickets-reward img {
     width: 48.235px;
     height: 44.79px;
+}
+
+.promotional-code-reward-zone {
+    width: 984px;
+    height: 207px;
+    border-radius: 8px;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+    padding: 28px 0 0 24px;
+}
+.promotional-code-reward-zone h2 {
+    color: #1A1A1A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+.promotional-code-reward-zone h3 {
+    margin: 14px 0 21px 0;
+    color: #515151;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.code-container-reward-zone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 30px 15px 29px;
+    width: 948px;
+    height: 61px;
+    border-radius: 4px;
+    border: 1px solid #E6E6E6;
+    background: #EBEBEB;
+}
+.code-container-reward-zone h4 {
+    color: #057A10;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.copy-code-reward-zone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.copy-code-reward-zone p {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.achievements-reward-zone {
+    width: 984px;
+    height: 259px;
+    border-radius: 8px;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+    margin: 55px 0 97px 0;
+    padding: 25px 30px 40px 24px;
+}
+.achievements-reward-zone h2 {
+    color: #1A1A1A;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.unlocked-reward {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.unlocked-reward h3 {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin: 0 337px 0 42px;
+}
+.unlocked-reward span {
+    color: #057A10;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+.unlocked-reward h4 {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin-right: 56px;
+}
+
+.margin-unlocked-reward {
+    margin: 35px 0 19px 0;
 }
 /* Reward Zone End */
 
