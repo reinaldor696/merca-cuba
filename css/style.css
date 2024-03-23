@@ -5769,6 +5769,55 @@ header {
     border: 1px solid #E6E6E6;
     background: #FFF;
     margin-left: 20px;
+    padding: 37px 0 22px 36px;
+}
+.my-tickets-reward-zone h2 {
+    color: #1A1A1A;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin-bottom: 21px;
+}
+.my-tickets-reward-zone h3 {
+    color: #1A1A1A;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.my-tickets-span-reward-zone {
+    color: #1A1A1A;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.text3-my-tickets-reward {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 19px;
+}
+.text3-my-tickets-reward h4 {
+    color: #057A10;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+}
+.text3-my-tickets-reward span {
+    color: #000;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+}
+.text3-my-tickets-reward img {
+    width: 48.235px;
+    height: 44.79px;
 }
 /* Reward Zone End */
 
