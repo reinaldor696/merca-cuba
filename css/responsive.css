@@ -533,7 +533,7 @@
 
 /* About Us */
 .about-us {
-    display: block;
+    display: none;
     padding-left: 29px;
 }
 
@@ -637,6 +637,47 @@
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
+}
+
+.content3-about-us h2 {
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 41px 0 21px 0;
+}
+
+.question-stylo {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.content3-about-us p {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;margin-bottom: 163.08px;
+}
+
+.text-decoration-about-us {
+    color: #057A10;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.email-stylo {
+    color: #000;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .br1-about-us {
