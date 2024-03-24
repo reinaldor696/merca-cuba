@@ -3945,6 +3945,108 @@ header {
 .margin2-content2-info-shopping {
     margin-left: 17px;
 }
+
+.products-shopping-detail-pop-up {
+    padding: 49px 56px 0 39px;
+}
+
+.title-shopping-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 42px;
+}
+.title-shopping-detail li {
+    color: #4D4D4D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 21px */
+}
+
+.product1-shopping-detail img {
+    width: 104.607px;
+    height: 101px;
+}
+.product2-shopping-detail img {
+    width: 104.607px;
+    height: 101px;
+}
+
+.margin1-title-shopping-detail {
+    margin: 0 104px 0 320px;
+}
+.margin2-title-shopping-detail {
+    margin-left: 110px;
+}
+
+.border1-products-shopping {
+    width: 871px;
+    height: 1px;
+    background: #E6E6E6;
+    margin: 9px 0 14px 20px;
+}
+
+.product1-shopping-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 26px;
+}
+.product1-shopping-detail li {
+    color: #4D4D4D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.product2-shopping-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 26px;
+}
+.product2-shopping-detail li {
+    color: #4D4D4D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+#quantitive-product-shopping-detail {
+    width: 64px;
+    height: 33px;
+    padding: 8px 13px 7px 12px;
+    border-radius: 100px;
+    border: 1px solid #CCC;
+    color: #4D4D4D;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin: 0 114px;
+}
+
+.border2-products-shopping {
+    width: 871px;   
+    height: 1px;
+    background: #E6E6E6;
+    margin: 14px 0 10px 2px;
+}
+
+.border3-products-shopping {
+    width: 871px;
+    height: 1px;
+    background: #E6E6E6;
+    margin-top: 19px;
+}
+
+.product-name-shopping-detail {
+    margin: 0 176px 0 13.39px;
+}
 /* Section Historial Order End */
 
 /* Section Shopping Cart */
