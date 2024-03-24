@@ -3689,7 +3689,7 @@ header {
 
 /* Section Historial Order */
 .historial-order {
-    display: block;
+    display: none;
 }
 
 .historial-panel-control {
@@ -3854,6 +3854,20 @@ header {
     margin-top: 24px;
 }
 
+.shopping-detail-pop-up-container {
+    display: none;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.77);
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+}
+
 .content-shopping-detail-pop-up {
     width: 984px;
     height: 529px;
@@ -3947,7 +3961,19 @@ header {
 }
 
 .products-shopping-detail-pop-up {
-    padding: 49px 56px 0 39px;
+    padding: 32px 56px 0 39px;
+}
+.products-shopping-detail-pop-up h2 {
+    width: 100%;
+    color: #1A1A1A;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 35px 0 0 0;
+    padding-right: 43px;
 }
 
 .title-shopping-detail {
@@ -6525,6 +6551,21 @@ header {
 
 .star-list-loyalty {
     margin-left: 161px;
+}
+
+.complete-your-spin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15.92px;
+    margin: 95px 0 0 1px;
+}
+.complete-your-spin h3 {
+    color: #FFF;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
 }
 
 .margin-star1-loyalty {
