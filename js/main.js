@@ -8,6 +8,7 @@ const setupAccount = document.querySelector(".set-up-account");
 const passwordPopUp = document.querySelector(".password-pop-up-container");
 const footer = document.querySelector("footer");
 const historialOrder = document.querySelector(".historial-order");
+const shoppingDetailPopUp = document.querySelector(".shopping-detail-pop-up-container");
 const shoppingCart = document.querySelector(".shopping-cart");
 const aboutUs = document.querySelector(".about-us");
 const ProductDescription = document.querySelector(".product-description");
@@ -15,7 +16,7 @@ const categories = document.querySelector(".categories");
 const rewardZone = document.querySelector(".reward-zone");
 const contact = document.querySelector(".contact");
 const loyaltyProgram = document.querySelector(".loyalty-program");
-const spinDaily = document.querySelector(".spin-daily")
+const spinDaily = document.querySelector(".spin-daily");
 
 window.onload = function() {
         onLoad.style.display = "flex";
@@ -183,6 +184,17 @@ function sectionHistorialOrder() {
     contact.style.display = "none";
     loyaltyProgram.style.display = "none";
     spinDaily.style.display = "none";
+}
+
+function sectionShoppingDetailPopUp() {
+    shoppingDetailPopUp.style.display = "flex";
+
+    document.body.style.overflow = "hidden";
+}
+function sectionShoppingDetailClosedPopUp() {
+    shoppingDetailPopUp.style.display = "none";
+
+    document.body.style.overflow = "auto";
 }
 
 function sectionShoppingCart() {
@@ -382,6 +394,7 @@ function sectionSpinDailyFromMenu() {
     rewardZone.style.display = "none";
     aboutUs.style.display = "none";
     contact.style.display = "none";
+    loyaltyProgram.style.display = "none";
 
     menuNavHeader();
 }

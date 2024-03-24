@@ -3889,6 +3889,7 @@ header {
 }
 .info-shopping-detail-pop-up svg {
     margin-top: 5px;
+    cursor: pointer;
 }
 
 .content-info-shopping {
