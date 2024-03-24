@@ -4690,6 +4690,9 @@ header {
 .content3-4-about-us {
     margin-left: -45px;
 }
+.content3-4-about-us img {
+    display: none;
+}
 
 .img2-about-us-container img{
     width: 1129px;

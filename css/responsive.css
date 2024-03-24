@@ -531,6 +531,50 @@
 
 /* Home End */
 
+/* About Us */
+.about-us {
+    display: block;
+}
+
+.about-us-panel-control {
+    display: none;
+}
+
+.content1-about-us {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.img1-about-us-container {
+    width: 374px;
+    height: 272px;
+    margin: 0;
+}
+
+.content2-about-us {
+    box-shadow: none;
+    background: none;
+    margin: 0;
+    height: auto;
+}
+
+.img2-about-us-container img {
+    display: none;
+}
+
+.content3-4-about-us img {
+    display: block;
+    width: 374px;
+    height: 226.918px;
+    border-radius: 8px;
+}
+
+.content3-about-us {
+    margin: 0;
+}
+/* About Us End */
+
 /* Footer */
 footer {
     display: none;
