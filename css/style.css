@@ -4596,6 +4596,10 @@ header {
     line-height: 150%;
 }
 
+.br2-about-us {
+    display: none;
+}
+
 .content2-about-us {
     display: flex;
     flex-direction: row;

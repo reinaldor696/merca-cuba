@@ -534,6 +534,7 @@
 /* About Us */
 .about-us {
     display: block;
+    padding-left: 29px;
 }
 
 .about-us-panel-control {
@@ -546,10 +547,68 @@
     flex-direction: column;
 }
 
+.content1-about-us-container h2 {
+    color: #1A1A1A;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    margin: 0 0 21px 0;
+}
+.content1-about-us-container p {
+    color: #666;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.content1-about-us-container span {
+    color: #057A10;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.content2-about-us-container h2 {
+    margin: 41px 0 21px 0;
+    color: #1A1A1A;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+.content2-about-us-container p {
+    color: #666;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.content2-about-us-container span {
+    color: #057A10;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.br1-about-us {
+    display: none;
+}
+.br2-about-us {
+    display: block;
+}
+
 .img1-about-us-container {
+    width: auto;
+    height: auto;
+    margin: 41px 0;
+}
+.img1-about-us-container img {
     width: 374px;
     height: 272px;
-    margin: 0;
+    border-radius: 8px;
 }
 
 .content2-about-us {
