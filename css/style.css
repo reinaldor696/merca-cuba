@@ -6451,6 +6451,10 @@ header {
     margin: 0;
     font-weight: 600;
 }
+
+.br2-contact {
+    display: none;
+}
 /* contact End */
 
 /* Loyalty Program */
